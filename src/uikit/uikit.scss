@@ -1,0 +1,183 @@
+@mixin rectangle ($left, $top, $background) {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  left: $left;
+  top: $top;
+  background-color: $background;
+} 
+@mixin font_rectagle ($width, $height, $top) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  left: 260px;
+  top: $top;
+  //font-family: ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #1F2041;
+}
+
+//Colors&Type
+
+.block {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background:#ffffff;
+}
+
+// rectangle
+  .block__rectangle_black {@include rectangle (150px, 145px, #1F2041)}
+  .block__rectangle_black75 {@include rectangle (150px, 235px, #1F2041);
+    opacity: 0.75;}
+  .block__rectangle_black50 {@include rectangle (149.74px, 324.56px, #1F2041);
+    opacity: 0.5;}
+  .block__rectangle_black25 {@include rectangle (150px, 415px, #1F2041);
+    opacity: 0.25;}
+  .block__rectangle_black5 {@include rectangle (150px, 505px, #1F2041);
+    opacity: 0.05;}
+  .block__rectangle_purple {@include rectangle (150px, 595px, #BC9CFF)}
+  .block__rectangle_green {@include rectangle (150px, 685px, #6FCF97)}
+
+//discription rectangle
+.block__disriptionrectangle100 {
+@include font_rectagle(159px, 57px, 152px);
+//.color {font-weight: normal;}
+}
+.block__disriptionrectangle75 {
+  @include font_rectagle(150px, 57px, 242px);
+}
+.block__disriptionrectangle50 {
+  @include font_rectagle(151px, 57px, 332px);
+}
+.block__disriptionrectangle25 {
+  @include font_rectagle(149px, 57px, 422px);
+}
+.block__disriptionrectangle5 {
+  @include font_rectagle(139px, 58px, 511px);
+}
+.block__rectanglepurple {
+  @include font_rectagle(82px, 58px, 601px);
+}
+.block__rectanglegreen {
+  @include font_rectagle(77px, 57px, 692px);
+}
+//heading
+.block__h1 {
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  left: 854px;
+  top: 145px;
+  //font-family: ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.25);
+}
+.block__h2 {
+  position: absolute;
+  width: 27px;
+  height: 24px;
+  left: 856px;
+  top: 255px;
+  //font-family: ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.25);
+}
+.block__h3 {
+  position: absolute;
+  width: 17px;
+  height: 15px;
+  left: 866px;
+  top: 353px;
+  //font-family: ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.25);
+}
+.block__body {
+  position: absolute;
+  width: 37px;
+  height: 24px;
+  left: 846px;
+  top: 418px;
+  //font-family: ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.25);
+}
+
+//discription heading
+.block__discriptionH1 {
+  position: absolute;
+  width: 336px;
+  height: 60px;
+  left: 913px;
+  top: 145px;
+  //font-family: ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+}
+.block__discriptionH2 {
+  position: absolute;
+  width: 282px;
+  height: 48px;
+  left: 913px;
+  top: 255px;
+  //font-family: ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+.block__discriptionH3 {
+  position: absolute;
+  width: 186px;
+  height: 15px;
+  left: 913px;
+  top: 353px;
+  //font-family: ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.block__discriptionbody {
+  position: absolute;
+  width: 301px;
+  height: 48px;
+  left: 913px;
+  top: 418px;
+  //font-family: ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
