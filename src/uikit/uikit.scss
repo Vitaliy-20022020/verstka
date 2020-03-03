@@ -1,3 +1,36 @@
+// @font-face {
+// 	font-family: "Montserrat";
+// 	src: url("/assets/fonts/Montserrat-Regular.eot") format("embedded-opentype");
+// 	src: local("☺"), url("/assets/fonts/Montserrat-Regular.woff") format("woff"), url("/assets/fonts/Montserrat-Regular.ttf") format("truetype"), url("/assets/fonts/Montserrat-Regular.svg") format("svg");
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+//   @font-face {
+//     font-family: "Montserrat";
+//     src: url("/assets/fonts/Montserrat-Bold.eot") format("embedded-opentype");
+//     src: local("☺"), url("/assets/fonts/Montserrat-Bold.woff") format("woff"), url("/assets/fonts/Montserrat-Bold.ttf") format("truetype"), url("/assets/fonts/Montserrat-Bold.svg") format("svg");
+//     font-weight: bold;
+//     font-style: normal;
+//   }
+
+//   @font-face {
+//     font-family: "Quicksand";
+//     src: url("/assets/fonts/Quicksand-Regular.eot") format("embedded-opentype");
+//     src: local("☺"), url("/assets/fonts/Quicksand-Regular.woff") format("woff"), url("/assets/fonts/Quicksand-Regular.ttf") format("truetype"), url("/assets/fonts/Quicksand-Regular.svg") format("svg");
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+  
+//   @font-face {
+// font-family: "Quicksand";
+// 	src: url("/assets/fonts/Quicksand-Bold.eot") format("embedded-opentype");
+// 	src: local("☺"), url("/assets/fonts/Quicksand-Bold.woff") format("woff"), url("/assets/fonts/Quicksand-Bold.ttf") format("truetype"), url("/assets/fonts/Quicksand-Bold.svg") format("svg");
+// 	font-weight: bold;
+// 	font-style: normal;
+// }
+
+
 @mixin rectangle ($left, $top, $background) {
   position: absolute;
   width: 70px;
@@ -13,7 +46,7 @@
   height: $height;
   left: 260px;
   top: $top;
-  //font-family: ;
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
@@ -75,7 +108,7 @@
   height: 30px;
   left: 854px;
   top: 145px;
-  //font-family: ;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -89,7 +122,7 @@
   height: 24px;
   left: 856px;
   top: 255px;
-  //font-family: ;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
@@ -103,7 +136,7 @@
   height: 15px;
   left: 866px;
   top: 353px;
-  //font-family: ;
+ font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -118,7 +151,7 @@
   height: 24px;
   left: 846px;
   top: 418px;
-  //font-family: ;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -134,7 +167,7 @@
   height: 60px;
   left: 913px;
   top: 145px;
-  //font-family: ;
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -147,7 +180,7 @@
   height: 48px;
   left: 913px;
   top: 255px;
-  //font-family: ;
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
@@ -160,7 +193,7 @@
   height: 15px;
   left: 913px;
   top: 353px;
-  //font-family: ;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -174,7 +207,7 @@
   height: 48px;
   left: 913px;
   top: 418px;
-  //font-family: ;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

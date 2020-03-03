@@ -77,12 +77,20 @@ module: {
 }]
 },
 {
-  test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+)?$/,
-     loader: "file-loader",
+  test: /\.(woff|woff2|ttf|eot|svg)?$/,
+     loader: "url-loader?limit=30000&[name].[ext]",
+    
+  },
+{
+  test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+     use: [{
+    loader: "file-loader",
     options: {
-      name: "[name].[ext]",}
-  }
-
+      filename: "[name].[ext]"
+    }
+    }]
+  },
+  
 
 ]
 },
@@ -125,8 +133,8 @@ canPrint: true
  to: `${PATHS.assets}img`
   },
   {
-  from: `${PATHS.src}/fonts`,
-  to: `${PATHS.assets}fonts`
+  from: `${PATHS.src}/uikit/fonts`,
+   to: `${PATHS.assets}fonts`
   }
 ]),
 

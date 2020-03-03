@@ -117,7 +117,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _uikit_uikit_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./uikit/uikit.scss */ \"./src/uikit/uikit.scss\");\n/* harmony import */ var _uikit_uikit_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_uikit_uikit_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n\n//# sourceURL=webpack:///./src/uikit.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _uikit_uikit_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./uikit/uikit.scss */ \"./src/uikit/uikit.scss\");\n/* harmony import */ var _uikit_uikit_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_uikit_uikit_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n\n\n//# sourceURL=webpack:///./src/uikit.js?");
 
 /***/ }),
 
