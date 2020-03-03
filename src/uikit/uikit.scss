@@ -46,7 +46,7 @@
   height: $height;
   left: 260px;
   top: $top;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
@@ -81,25 +81,38 @@
 //discription rectangle
 .block__disriptionrectangle100 {
 @include font_rectagle(159px, 57px, 152px);
-//.color {font-weight: normal;}
+ .block__colordark100 {font-weight: normal;
+}
 }
 .block__disriptionrectangle75 {
   @include font_rectagle(150px, 57px, 242px);
+  .block__colordark75 {font-weight: normal;
+  }
 }
 .block__disriptionrectangle50 {
   @include font_rectagle(151px, 57px, 332px);
+  .block__colordark50 {font-weight: normal;
+  }
 }
 .block__disriptionrectangle25 {
   @include font_rectagle(149px, 57px, 422px);
+  .block__colordark25 {font-weight: normal;
+  }
 }
 .block__disriptionrectangle5 {
   @include font_rectagle(139px, 58px, 511px);
+  .block__colordark5 {font-weight: normal;
+  }
 }
 .block__rectanglepurple {
   @include font_rectagle(82px, 58px, 601px);
+  .block__colorpurple {font-weight: normal;
+  }
 }
 .block__rectanglegreen {
   @include font_rectagle(77px, 57px, 692px);
+  .block__colorgreen {font-weight: normal;
+  }
 }
 //heading
 .block__h1 {
@@ -108,7 +121,7 @@
   height: 30px;
   left: 854px;
   top: 145px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -122,7 +135,7 @@
   height: 24px;
   left: 856px;
   top: 255px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
@@ -136,7 +149,7 @@
   height: 15px;
   left: 866px;
   top: 353px;
- font-family: "Montserrat";
+ font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -151,7 +164,7 @@
   height: 24px;
   left: 846px;
   top: 418px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -167,7 +180,7 @@
   height: 60px;
   left: 913px;
   top: 145px;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -180,7 +193,7 @@
   height: 48px;
   left: 913px;
   top: 255px;
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
@@ -193,7 +206,7 @@
   height: 15px;
   left: 913px;
   top: 353px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -207,7 +220,7 @@
   height: 48px;
   left: 913px;
   top: 418px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
