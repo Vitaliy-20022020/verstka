@@ -63,10 +63,20 @@
   width: 1440px;
   height: 900px;
   background:#ffffff;
+  padding-right: 300px;
+}
+//vector
+.block__logo {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  top: 30px;
 }
 
+
 // rectangle
-  .block__rectangle_black {@include rectangle (150px, 145px, #1F2041)}
+  .block__rectangle_black100 {@include rectangle (150px, 145px, #1F2041)}
   .block__rectangle_black75 {@include rectangle (150px, 235px, #1F2041);
     opacity: 0.75;}
   .block__rectangle_black50 {@include rectangle (149.74px, 324.56px, #1F2041);

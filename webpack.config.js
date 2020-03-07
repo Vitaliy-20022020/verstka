@@ -76,11 +76,11 @@ module: {
   }
 }]
 },
-{
-  test: /\.(woff|woff2|ttf|eot|svg)?$/,
-     loader: "url-loader?limit=30000&[name].[ext]",
+// {
+//   test: /\.(woff|woff2|ttf|eot|svg)?$/,
+//      loader: "url-loader?limit=30000&[name].[ext]",
     
-  },
+//   },
 {
   test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
      use: [{
