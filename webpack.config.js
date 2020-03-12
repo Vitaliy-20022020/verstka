@@ -14,8 +14,8 @@ const PATHS = {
 
 module.exports = {
  entry: {
-   uikit: `${PATHS.src}/uikit.js`,
-   webpages: `${PATHS.src}/webpages.js`,
+   uikit: `${PATHS.src}/js/uikit.js`,
+   webpages: `${PATHS.src}/js/webpages.js`,
    },
  output: {
   filename: `${PATHS.assets}js/[name].js`,
@@ -117,7 +117,7 @@ plugins: [
   }),
   new webpack.ProvidePlugin({
     $: "jquery",
-    "jQuery": "jquery",
+    jQuery: "jquery",
     "window.jQuery": "jquery"
   }),
   new OptimizeCssAssetsPlugin({

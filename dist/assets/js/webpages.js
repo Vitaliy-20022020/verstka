@@ -81,19 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/webpages.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/webpages.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/webpages.js":
-/*!*************************!*\
-  !*** ./src/webpages.js ***!
-  \*************************/
+/***/ "./src/js/webpages.js":
+/*!****************************!*\
+  !*** ./src/js/webpages.js ***!
+  \****************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("\n\n//# sourceURL=webpack:///./src/webpages.js?");
+"use strict";
+eval("\n\n//# sourceURL=webpack:///./src/js/webpages.js?");
 
 /***/ })
 
