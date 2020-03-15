@@ -266,22 +266,39 @@
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-
+ 
+//hearding
 .cards__heading {
   position: absolute;
 width: 320px;
 height: 60px;
-left: 40px;
-top: 30px;
+left: 30px;
+top: 40px;
 font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
+//font-style: normal;
+//font-weight: bold;
+//font-size: 24px;
 line-height: 30px;
 color: #1F2041;
+margin: 0 auto;
 }
-//arrival
-.cards__datearrival {
+//прибытие
+.cards__labelarrival {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 30px;
+  top: 120px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+  }
+//form date arrival
+.cards__arrival {
   position: absolute;
   width: 150px;
   height: 44px;
@@ -296,38 +313,11 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 18px;
+padding-left: 15px;
 }
-//прибытие
-.cards__label {
-position: absolute;
-width: 83px;
-height: 15px;
-left: 30px;
-top: 120px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-text-transform: uppercase;
-color: #1F2041;
-}
-//text date
-.cards__textarrival {
-  position: absolute;
-width: 103px;
-height: 24px;
-left: 15px;
-top: 11.56x;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-color: rgba(31, 32, 65, 0.75);
-}
-//icons arrow down
-.material-icons {
+
+//icons arrow down arrival
+.material-iconsarrival {
   position: absolute;
   width: 44px;
   height: 44px;
@@ -342,8 +332,156 @@ color: rgba(31, 32, 65, 0.75);
   align-items: center;
   text-align: center;
   color: rgba(31, 32, 65, 0.5);
-.arrowdown {
+.arrowdownarrival {
   margin: 0 auto;
 }
 }
 
+//Выезд
+.cards__labelpdeparture
+{position: absolute;
+width: 83px;
+height: 15px;
+left: 200px;
+top: 120px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;}
+
+//form date departure
+.cards__departure {
+position: absolute;
+width: 150px;
+height: 44px;
+left: 200px;
+top: 140.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+padding-left: 15px;}
+
+//icons arrow down departure
+.material-iconsdeparture {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 306px;
+  top: 141px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+.arrowdowndeparture {
+  margin: 0 auto;}
+}
+
+//text Гости
+.cards__textguests {
+position: absolute;
+width: 43px;
+height: 15px;
+left: 30px;
+top: 205px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;}
+
+// form guests
+.cards__formguests {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 30px;
+  top: 225px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 15px;
+}
+// arrow down guests
+.material-iconsguests {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 305.74px;
+  top: 225.56px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+.arrowdownguests {margin: 0 auto;}
+}
+//select number
+.cards__selectnumber {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 30px;
+  top: 300px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+}
+//text выбор номера
+.cards__textselectnumber {
+  position: absolute;
+  width: 280px;
+  height: 15px;
+  left: 48px;
+  top: 314px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;}
+
+  //
+.material-iconsselectnumber{
+position: absolute;
+width: 44px;
+height: 44px;
+left: 306px;
+top: 300px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+.arrowforward {margin: 0 auto;}
+}
