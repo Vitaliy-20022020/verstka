@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+<!--календарь-->
+
+<link href="../../assets/calendar/css/datepicker.min.css" rel="stylesheet" type="text/css">
+
+
   <title>UI-kit</title>
   
 </head>
@@ -44,15 +49,17 @@ Purple<br><span class="block__colorpurple">#BC9CFF</span></span></div>
   <img src="../../assets/img/logo.jpg" alt="Logo" class="cards__logo">
 <!--search-->
 <div class="cards__search">
-  <h1 class="cards__heading">Найдем номера под<br>ваши пожелания</h1>
-
+  <h1 class="cards__heading">Найдём номера под<br>ваши пожелания</h1>
+<!--text Прибытие-->
   <div class="cards__label">Прибытие</div>
-  <div class="cards__datearrival">
-<p class="cards__textarrival" id="date_arrival">ДД&#46;MM&#46;ГГГГ</p>
-</div>
-    <div class="material-icons"><img src="../../assets/img/arrowdown.svg" alt="" class="arrowdown" id="icons_arrival"></div>
-    
 
+   <!--form date arrival-->
+<input type='text' class="datepicker-here" placeholder="ДД&#46;MM&#46;ГГГГ"/>
+
+<!--arrow down-->
+<div class="material-icons"><img src="../../assets/img/arrowdown.svg" alt="" class="arrowdown" id="datepicker-here"></div>
+
+     
 
 
 </div>
