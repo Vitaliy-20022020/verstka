@@ -333,6 +333,7 @@ padding-left: 15px;
   text-align: center;
   color: rgba(31, 32, 65, 0.5);
 .arrowdownarrival {
+  cursor: pointer;
   margin: 0 auto;
 }
 }
@@ -387,6 +388,7 @@ padding-left: 15px;}
   text-align: center;
   color: rgba(31, 32, 65, 0.5);
 .arrowdowndeparture {
+  cursor: pointer;
   margin: 0 auto;}
 }
 
@@ -439,9 +441,11 @@ color: #1F2041;}
   align-items: center;
   text-align: center;
   color: rgba(31, 32, 65, 0.5);
-.arrowdownguests {margin: 0 auto;}
+.arrowdownguests {
+  cursor: pointer;
+  margin: 0 auto;}
 }
-//select number
+//form select number
 .cards__selectnumber {
   position: absolute;
   width: 320px;
@@ -467,7 +471,7 @@ color: #1F2041;}
   text-transform: uppercase;
   color: #FFFFFF;}
 
-  //
+  //arrow forward select number
 .material-iconsselectnumber{
 position: absolute;
 width: 44px;
@@ -483,5 +487,33 @@ display: flex;
 align-items: center;
 text-align: center;
 color: #FFFFFF;
-.arrowforward {margin: 0 auto;}
+.arrowforward {
+  cursor: pointer;
+  margin: 0 auto;}
+}
+
+.title {
+width: 35px;
+height: 97px;
+position: absolute;
+left: 311.74px;
+top: 268.56px;
+z-index: 3;
+overflow-x: hidden;
+overflow-y: scroll;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+border-radius: 4px;
+display: none;
+a {color: black;
+text-decoration: none;}
+ul {padding: 5px;
+  margin: 0;
+list-style-type: none;
+}
+li {cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;}
 }
