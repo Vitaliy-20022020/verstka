@@ -1720,7 +1720,7 @@ $('#datepicker-heredeparture').on('click', function(){
   $('.cards__departure').trigger('click');
   });
 //form guests and select amount guests
-$('#guests, .cards__formguests, .list').on('click', function(){
+$('#guests, .list').on('click', function(){
 $('.title').slideToggle('fast');
 });
 
@@ -1728,8 +1728,24 @@ $('.list').click(function(){
  let list = $(this).html();
  $('.cards__formguests').val(list);
 });
-
-
+//calendar block room
+//arrival block room
+$('#datepicker-herearrivalroom').on('click', function(){
+  $('.cards__arrivalroom').trigger('click');
+  });
+//departure block room
+$('#datepicker-heredepartureroom').on('click', function(){
+  $('.cards__departureroom').trigger('click');
+  });
+//form guests and select amount guests block room
+$('#guestsroom, .listroom').on('click', function(){
+  $('.titleroom').slideToggle('fast');
+  });
+  
+  $('.listroom').click(function(){
+   let list = $(this).html();
+   $('.cards__formguestsroom').val(list);
+  });
 
 
 

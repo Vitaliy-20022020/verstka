@@ -491,7 +491,7 @@ color: #FFFFFF;
   cursor: pointer;
   margin: 0 auto;}
 }
-
+//Выпадающий список кол-ва гостей
 .title {
 width: 35px;
 height: 97px;
@@ -516,4 +516,396 @@ li {cursor: pointer;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;}
+}
+
+//block room
+.cards__room {
+position: absolute;
+width: 380px;
+height: 511px;
+left: 560px;
+top: 150px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+//room__number №888
+.cards__roomnumber {
+position: absolute;
+width: 64px;
+height: 30px;
+left: 30px;
+top: 40px;
+font-family: Quicksand;
+//font-style: normal;
+//font-weight: bold;
+//font-size: 14px;
+line-height: 17px;
+color: #1F2041;
+margin: 0 auto;
+padding-top: 5px;
+margin: 0;
+span {
+  font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+}
+}
+//люкс
+.cards__roomlux {
+position: absolute;
+width: 41px;
+height: 15px;
+left: 100px;
+top: 50px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #BC9CFF;
+display: inline-block;
+
+}
+//9900 р в сутки
+.cards__roomprice {
+position: absolute;
+width: 110px;
+height: 20px;
+right: 30px;
+top: 50px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+display: inline-block;
+span {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+}
+}
+// text прибытие
+.cards__textarrival {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 30px;
+  top: 90px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+  }
+  //form date arrival block room
+  .cards__arrivalroom {
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 30px;
+    top: 110.44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px; 
+    padding-left: 15px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+  }
+  //arrow down arrival block room
+  .material-iconsarrivalroom {position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 136px;
+  top: 111px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+.arrowdownarrivalroom {
+  cursor: pointer;
+  margin: 0 auto;
+}
+}
+//text выезд  block room
+.cards__textdeparture {
+position: absolute;
+width: 83px;
+height: 15px;
+left: 200px;
+top: 90px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//form date departure block room
+.cards__departureroom {
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  left: 200px;
+  top: 110.44px;
+  background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 15px;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+}
+//arrow down departure block room
+.material-iconsdepartureroom{
+position: absolute;
+width: 44px;
+height: 44px;
+left: 306px;
+top: 111px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.5);
+.arrowdowndepartureroom {
+  cursor: pointer;
+  margin: 0 auto;}
+}
+//text Гости block room
+.cards__textguestsroom {
+position: absolute;
+width: 43px;
+height: 15px;
+left: 30px;
+top: 174.44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//form guests block room
+.cards__formguestsroom {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 194.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+padding-left: 15px;
+}
+//arrow down guests block room
+.material-iconsguestsroom {
+position: absolute;
+width: 44px;
+height: 44px;
+left: 305.74px;
+top: 194px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.5);
+.arrowdownguestseroom {
+cursor: pointer;
+  margin: 0 auto;}
+}
+//Выпадающий список кол-ва гостей block room
+.titleroom {
+width: 98px;
+height: 97px;
+position: absolute;
+left: 247.74px;
+top: 238px;
+z-index: 3;
+overflow-x: hidden;
+overflow-y: scroll;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+border-radius: 4px;
+display: none;
+ul {padding: 5px;
+  margin: 0;
+list-style-type: none;
+}
+li {cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;}
+}
+//9990 р в сутки х 4 суток
+.cards__pricefourdays {
+position: absolute;
+width: 116px;
+height: 24px;
+left: 31px;
+top: 259px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+display: inline-block;
+white-space: nowrap;
+}
+//Общая сумма за 4 суток
+.cards__totalfourdays {
+position: absolute;
+width: 57px;
+height: 24px;
+left: 293px;
+top: 259px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+display: inline-block;
+white-space: nowrap;
+}
+//Сбор за услуги: скидка 2179р
+.cards__discount {
+position: absolute;
+width: 214px;
+height: 24px;
+left: 31px;
+top: 293px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+display: inline-block;
+white-space: nowrap;
+}
+//Картинка эллипс
+.cards__ellipse {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 250px;
+top: 293px;
+}
+  //0 р
+  .cards__totalzero {
+  position: absolute;
+width: 20px;
+height: 24px;
+left: 330px;
+top: 293px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+text-align: right;
+color: rgba(31, 32, 65, 0.75);
+display: inline-block;
+white-space: nowrap;
+  }
+  //Сбор за дополнительные услуги
+  .cards__textextraservice {
+    position: absolute;
+    width: 214px;
+    height: 36px;
+    left: 31px;
+    top: 327px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+  }
+//Картинка эллипс
+.cards__ellipseservice {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 250px;
+  top: 329px;
+  }
+// 300 р
+.cards__total300 {
+position: absolute;
+width: 37px;
+height: 24px;
+left: 313px;
+top: 327px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+text-align: right;
+color: rgba(31, 32, 65, 0.75);
+}
+//Итого
+.cards__total {
+position: absolute;
+width: 59px;
+height: 24px;
+left: 31px;
+top: 393px;
+font-family: Quicksand sans-serif;
+//font-style: normal;
+//font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+color: #1F2041;
+margin: 0;
+}
+//Пунктирная линия
+.cards__line {
+position: absolute;
+width: 182px;
+height: 1px;
+left: 95px;
+top: 411px;
+border: 1px dashed rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
 }
