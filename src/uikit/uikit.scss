@@ -55,6 +55,42 @@
   align-items: center;
   color: #1F2041;
 }
+@mixin calendar_daysweek ($left) {
+position: absolute;
+width: 39.88px;
+height: 40px;
+left: $left;
+top: 74px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #BC9CFF; 
+display: inline-block;
+line-height: 40px;
+}
+@mixin calendar_days ($left, $top) {
+  position: absolute;
+width: 39.88px;
+height: 40px;
+left: $left;
+top: $top;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.5);
+display: inline-block;
+line-height: 40px;
+}
 
 //Colors&Type
 
@@ -538,19 +574,23 @@ width: 64px;
 height: 30px;
 left: 30px;
 top: 40px;
-font-family: Montserrat;
+font-family: Quicksand;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 24px;
 line-height: 17px;
 color: #1F2041;
-padding-top: 5px;
 white-space: nowrap;
 text-align: center;
-//display: inline;
+display: inline-block;
+line-height: 30px;
 margin: 0;
 span {
-font-size: 12px;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: bold;
+text-align: left;
 }
 }
 //люкс block room
@@ -559,7 +599,7 @@ position: absolute;
 width: 41px;
 height: 15px;
 left: 100px;
-top: 50px;
+top: 52px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -968,4 +1008,394 @@ color: #FFFFFF;
 .arrowforwardreserve {
   cursor: pointer;
   margin: 0 auto;}
+}
+//block calendar
+.cards__calendar {
+  position: absolute;
+  width: 320px;
+  height: 369px;
+  left: 980px;
+  top: 150px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+}
+//arrow back
+.cards__arrow_back {
+position: absolute;
+width: 23.93px;
+height: 24px;
+left: 20.2px;
+top: 20px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #BC9CFF;
+}
+//Август 2019
+.cards__august2019 {
+position: absolute;
+width: 114px;
+height: 24px;
+left: 103px;
+top: 20px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 24px;
+text-align: center;
+color: #1F2041;
+span {font-family: Quicksand;}
+white-space: nowrap;
+}
+//arrow forward
+.cards__arrow_forward {
+  position: absolute;
+width: 23.93px;
+height: 24px;
+left: 275.4px;
+top: 20px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #BC9CFF;
+}
+//calendar days
+.cards__monday {
+  @include calendar_daysweek(21.2px);
+}
+.cards__tuesday {
+  @include calendar_daysweek(61.07px);
+}
+.cards__wednesday {
+  @include calendar_daysweek(100.95px);
+}
+.cards__thursday {
+  @include calendar_daysweek(140.82px);
+}
+.cards__friday {
+  @include calendar_daysweek(180.7px);
+}
+.cards__saturday {
+  @include calendar_daysweek(220.58px);
+}
+.cards__sunday {
+  @include calendar_daysweek(260.45px);
+}
+//calendar days
+.cards__29jule {
+position: absolute;
+width: 39.88px;
+height: 40px;
+left: 21.2px;
+top: 114px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.25);
+display: inline-block;
+line-height: 40px;
+}
+.cards__30jule {
+  position: absolute;
+  width: 39.88px;
+  height: 40px;
+  left: 61.07px;
+  top: 114px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.25);
+  display: inline-block;
+  line-height: 40px;
+}
+.cards__31jule {
+position: absolute;
+width: 39.88px;
+height: 40px;
+left: 100.95px;
+top: 114px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.25);
+display: inline-block;
+line-height: 40px;
+}
+.cards__1 {
+  @include calendar_days(140.56px, 113.56px);
+}
+.cards__2 {
+  @include calendar_days(180.44px, 113.56px);
+}
+.cards__3 {
+  @include calendar_days(220.31px, 113.56px);
+}
+.cards__4 {
+  @include calendar_days(260.19px, 113.56px);
+}
+.cards__5 {
+  @include calendar_days(20.94px, 153.56px);
+}
+.cards__6
+{
+  @include calendar_days(60.81px, 153.56px);
+}
+.cards__7 {
+  @include calendar_days(100.69px, 153.56px);
+}
+.cards__8 {
+position: absolute;
+width: 39.88px;
+height: 40px;
+left: 140.82px;
+top: 154px;
+background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+border-radius: 22px;
+color: white;
+display: inline-block;
+line-height: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.cards__9 {
+  @include calendar_days(180.44px, 153.56px);
+}
+.cards__10 {
+  @include calendar_days(220.31px, 153.56px);
+}
+.cards__11 {
+  @include calendar_days(260.19px, 153.56px);
+}
+.cards__12 {
+  @include calendar_days(20.94px, 193.56px);
+}
+.cards__13 {
+  @include calendar_days(60.81px, 193.56px);
+}
+.cards__14 {
+  @include calendar_days(100.69px, 193.56px);
+}
+.cards__15 {
+  @include calendar_days(140.56px, 193.56px);
+}
+.cards__16 {
+  @include calendar_days(180.44px, 193.56px);
+}
+.cards__17 {
+  @include calendar_days(220.31px, 193.56px);
+}
+.cards__18 {
+  @include calendar_days(260.19px, 193.56px);
+}
+.cards__19 {
+  position: absolute;
+  width: 39.88px;
+  height: 40px;
+  left: 21.2px;
+  top: 234px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  display: inline-block;
+  line-height: 40px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+  }
+  .cards__20 {
+  position: absolute;
+  width: 39.88px;
+  height: 40px;
+  left: 60.81px;
+  top: 233.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  line-height: 40px;
+}
+.cards__21 {
+  position: absolute;
+  width: 39.88px;
+  height: 40px;
+  left: 100.69px;
+  top: 233.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  line-height: 40px;
+}
+.cards__22 {
+  position: absolute;
+  width: 39.88px;
+  height: 40px;
+  left: 140.56px;
+  top: 233.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  line-height: 40px;
+}
+.cards__23 {
+  position: absolute;
+  width: 39.88px;
+  height: 40px;
+  left: 180.7px;
+  top: 234px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  line-height: 40px;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+}
+//заливка дней недели 19,20,21,22,23
+.cards__backgrounddays19-23 {
+position: absolute;
+width: 159.5px;
+height: 40px;
+left: 41.14px;
+top: 234px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+opacity: 0.25;
+}
+.cards__24 {
+  @include calendar_days(220.31px, 233.56px);
+}
+.cards__25 {
+  @include calendar_days(260.19px, 233.56px);
+}
+.cards__26 {
+  @include calendar_days(20.94px, 273.56px);
+}
+.cards__27 {
+  @include calendar_days(60.81px, 273.56px);
+}
+.cards__28 {
+  @include calendar_days(100.69px, 273.56px);
+}
+.cards__29 {
+  @include calendar_days(140.56px, 273.56px);
+}
+.cards__30 {
+  @include calendar_days(180.44px, 273.56px);
+}
+.cards__31 {
+  @include calendar_days(220.31px, 273.56px);
+}
+.cards__1september {
+position: absolute;
+width: 39.88px;
+height: 40px;
+left: 260.45px;
+top: 274px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.25);
+display: inline-block;
+line-height: 40px;
+}
+// text Очистить
+.cards__clearcalendar {
+position: absolute;
+width: 72px;
+height: 15px;
+left: 20px;
+top: 334px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: rgba(31, 32, 65, 0.5);
+}
+//text Применить
+.cards__applycalendar {
+position: absolute;
+width: 84px;
+height: 15px;
+left: 216px;
+top: 334px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #BC9CFF;
 }
