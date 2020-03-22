@@ -1741,12 +1741,48 @@ $('#datepicker-heredepartureroom').on('click', function(){
 $('#guestsroom, .listroom').on('click', function(){
   $('.titleroom').slideToggle('fast');
   });
-  
   $('.listroom').click(function(){
    let list = $(this).html();
    $('.cards__formguestsroom').val(list);
   });
 
+  //radiobutton men and women form registration
+  //radiobutton women active
+  $('#women').on ('click', function () 
+  {
+    $('#women').removeClass ('cards__radiobutton_women');
+    $('#women').addClass ('cards__radiobuttonwomen_active');
+    $('#womenchecked').addClass('cards__radiobutton_womenchecked');
+    $('#textwomen').removeClass ('cards__textwomen');
+    $('#textwomen').addClass ('cards__textwomen_active');
+    $('#men').removeClass ('cards__radiobuttonmen');
+    $('#menchecked').removeClass ('cards__radiobutton_menchecked');
+    $('#men').addClass ('cards__radiobuttonmen_inactive');
+    $('#textmen').removeClass ('cards__textmen');
+    $('#textmen').addClass ('cards__textmen_inactive');
+  });
+//radiobutton men active
+$('#men').on ('click', function () 
+  {
+    $('#men').removeClass ('cards__radiobuttonmen_inactive');
+    $('#men').addClass ('cards__radiobuttonmen');
+    $('#menchecked').addClass('cards__radiobutton_menchecked');
+    $('#textmen').removeClass ('cards__textmen_inactive');
+    $('#textmen').addClass ('cards__textmen');
+    $('#women').removeClass ('cards__radiobuttonwomen_active');
+    $('#womenchecked').removeClass ('cards__radiobutton_womenchecked');
+    $('#women').addClass ('cards__radiobutton_women');
+    $('#textwomen').removeClass ('cards__textwomen_active');
+    $('#textwomen').addClass ('cards__textwomen');
+  });
+  //calendar form date of birth
+  $('.cards__formdateofbirth').on('click', function(){
+    $(this).data('datepicker');
+    });
+//button switch
+$('.cards__btnswitch').on('click', function() {
+  $(this).toggleClass('switch-on');
+});
 
 
 

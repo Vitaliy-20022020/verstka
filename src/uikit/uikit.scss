@@ -1399,3 +1399,449 @@ line-height: 15px;
 text-transform: uppercase;
 color: #BC9CFF;
 }
+//Регистрация аккаунта
+.cards__registration {
+position: absolute;
+width: 380px;
+height: 646px;
+left: 140px;
+top: 564px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+//text Регистрация аккаунта
+.cards__textregistration {
+position: absolute;
+width: 320px;
+height: 30px;
+left: 30px;
+top: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+color: #1F2041;
+}
+//iput name
+.cards__inputname {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 90px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.25);
+}
+//placeholder
+.cards__inputname::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+//input surname
+.cards__inputsurname {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 144px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+
+}
+//placeholder
+.cards__inputsurname::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+//radiobutton men
+.cards__radiobutton_men {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 30px;
+top: 198.44px;
+background: #FFFFFF;
+border: 1px solid #BC9CFF;
+box-sizing: border-box;
+border-radius: 10px;
+cursor: pointer;
+.cards__radiobutton_menchecked {
+position: absolute;
+width: 12px;
+height: 12px;
+left: 3px;
+top: 3px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 10px;
+}
+}
+//radiobutton men inactive
+.cards__radiobuttonmen_inactive {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 30px;
+  top: 198.44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+}
+//text men
+.cards__textmen {
+position: absolute;
+width: 68px;
+height: 24px;
+left: 60px;
+top: 198.44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+}
+//text men inactive
+.cards__textmen_inactive {
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 60px;
+  top: 198.44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.5);
+  }
+//radiobutton women
+.cards__radiobutton_women {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 148px;
+  top: 198.44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+}
+//radiobutton women active
+.cards__radiobuttonwomen_active {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 148px;
+  top: 198.44px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  .cards__radiobutton_womenchecked {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 3px;
+  top: 3px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 10px;
+  }
+  }
+//text women
+.cards__textwomen {
+position: absolute;
+width: 73px;
+height: 24px;
+left: 177.74px;
+top: 198px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.5);
+}
+//text women active
+.cards__textwomen_active {
+  position: absolute;
+  width: 73px;
+  height: 24px;
+  left: 177.74px;
+  top: 198px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  }
+//text дата рождения
+.cards__textdateofbirth {
+position: absolute;
+width: 118px;
+height: 15px;
+left: 30px;
+top: 242px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//form date of birth
+.cards__formdateofbirth {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+//placholder
+.cards__formdateofbirth::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.25);
+}
+//text данные для входа в сервис
+.cards__entranceservice {
+position: absolute;
+width: 211px;
+height: 15px;
+left: 30px;
+top: 326px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//input email
+.cards__email {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 346px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+//placeholder
+.cards__email::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.25);
+}
+//input password
+.cards__password {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 400px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+//placeholder
+.cards__password::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+//button switch
+.cards__btnswitch {
+position: absolute;
+width: 40px;
+height: 20px;
+left: 30px;
+top: 454px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 10px;
+}
+//ползунок
+.cards__btnswitch::after {
+content: "";
+width: 12px;
+height: 12px;
+left: 3px;
+top: 3px;
+background: rgba(31, 32, 65, 0.25);
+border-radius: 10px;
+transition-duration: 300ms; 
+position: absolute;
+z-index: 1;
+}
+//цвет фона при включенной кнопке
+.switch-on {
+  background:#83e6b4;
+}
+//положение кнопки после включения
+.switch-on::after {
+content: "";
+width: 12px;
+height: 12px;
+top: 3px;
+background: rgba(31, 32, 65, 0.25);
+border-radius: 10px;
+transition-duration: 300ms; 
+position: absolute;
+z-index: 1;
+left: 23px;
+}
+//text получать спецпредложения
+.cards__textoffer {
+position: absolute;
+width: 210px;
+height: 24px;
+left: 80px;
+top: 454px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+}
+//button перейти к оплате
+.cards__payment {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 498px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+}
+//text перейти к оплате
+.cards__textpayment {
+  position: absolute;
+  width: 280px;
+  height: 15px;
+  left: 20px;
+  top: 14px;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+//arrow forward перейти к оплате
+.material-iconspayment {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 306px;
+  top: 498px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  .arrowforward {
+    cursor: pointer;
+    margin: 0 auto;}
+}
+//text уже есть аккаунт на Toxin
+.cards__texttoxin {
+position: absolute;
+width: 186px;
+height: 18px;
+left: 30px;
+top: 584px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+//button войти
+.cards__buttonenter {
+position: absolute;
+width: 99px;
+height: 44px;
+left: 251px;
+top: 572px;
+border-radius: 22px;
+border: 2px solid  #BC9CFF;
+cursor: pointer;
+}
+//text войти
+.cards__textenter {
+position: absolute;
+width: 47px;
+height: 15px;
+left: 26px;
+top: 14px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #BC9CFF;
+}
