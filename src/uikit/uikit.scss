@@ -945,7 +945,7 @@ width: 182px;
 //height: 1px;
 left: 95px;
 top: 411px;
-border: 1px dotted rgba(31, 32, 65, 0.25);
+border-top: 1px dotted rgba(31, 32, 65, 0.25);
 //box-sizing: border-box;
 font-family: Quicksand;
 font-style: normal;
@@ -1845,3 +1845,661 @@ text-align: center;
 text-transform: uppercase;
 color: #BC9CFF;
 }
+//block log in
+.cards__login {
+position: absolute;
+width: 380px;
+height: 358px;
+left: 560px;
+top: 701px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+//text войти block log in
+.cards__heading {
+position: absolute;
+width: 320px;
+height: 30px;
+left: 30px;
+top: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+color: #1F2041;
+}
+//email
+.cards__emailblocklogin {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 90px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+//placeholder input email block log in
+.cards__emailblocklogin::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.25);
+}
+//password block log in
+.cards__passwordblocklogin {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 144px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+//placeholder input password block log in
+.cards__passwordblocklogin::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.25);
+}
+//button войти
+.cards__btnenterblocklogin {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 30px;
+top: 208px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+}
+//text войти
+.cards__textbtnenter {
+position: absolute;
+width: 280px;
+height: 15px;
+left: 20px;
+top: 14px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+// arrow forward войти block log in
+.material-iconsbtnehter {
+position: absolute;
+width: 44px;
+height: 44px;
+left: 306px;
+top: 208px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+color: #FFFFFF;
+.arrowforward {
+  cursor: pointer;
+  margin: 0 auto;}
+}
+//text нет аккаунта на Toxin?
+.cards__texttoxinblocklogin {
+position: absolute;
+width: 164px;
+height: 18px;
+left: 30px;
+top: 294px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+//button Создать
+.cards__btncreate {
+position: absolute;
+width: 99px;
+height: 44px;
+left: 251px;
+top: 282px;
+border: 2px solid  #BC9CFF;
+cursor: pointer;
+border-radius: 22px;
+}
+//text создать
+.cards__textcreate {
+position: absolute;
+width: 62px;
+height: 15px;
+left: 18px;
+top: 14px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #BC9CFF;
+}
+//block room lux
+.cards__blockroomlux {
+position: absolute;
+width: 270px;
+height: 257px;
+left: 980px;
+top: 559.5px;
+background-color: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+border-radius: 4px;
+}
+//image room lux
+.imgroomlux {
+position: absolute;
+width: 270px;
+height: 151.38px;
+border-radius: 4px 4px 0px 0px;
+}
+//arrow rights
+.cards__arrowright {
+position: absolute;
+width: 44px;
+height: 44px;
+top: 53px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+.arrowright {cursor: pointer;
+margin: 0 auto;}
+}
+//arrow left
+.cards__arrowleft {
+position: absolute;
+width: 44px;
+height: 44px;
+left: 226px;
+top: 53px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+.arrowleft {cursor: pointer;
+  margin: 0 auto;}
+}
+//round
+.cards__round {
+position: absolute;
+width: 7.5px;
+height: 7.49px;
+left: 213.75px;
+top: 128.4px;
+background: #FFFFFF;
+border-radius: 100%;
+}
+.cards__roundempty1 {
+  position: absolute;
+  width: 7.5px;
+  height: 7.49px;
+  left: 225px;
+  top: 128.4px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+  box-sizing: border-box;
+box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+}
+.cards__roundempty2{
+  position: absolute;
+  width: 7.5px;
+  height: 7.49px;
+  left: 236.5px;
+  top: 128.4px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+  box-sizing: border-box;
+box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+}
+.cards__roundempty3 {
+  position: absolute;
+  width: 7.5px;
+  height: 7.49px;
+  left: 247.5px;
+  top: 128.4px;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+  box-sizing: border-box;
+box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+}
+//№ 888 люкс 9990 р в сутки
+.cards__roomnumber888 {
+  position: absolute;
+  width: 64px;
+  height: 30px;
+  left: 15px;
+  top: 171px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1F2041;
+  white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+  line-height: 30px;
+  margin: 0;
+  span {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  }
+  }
+  //text lux
+.cards__textlux {
+position: absolute;
+width: 41px;
+height: 15px;
+left: 80px;
+top: 182px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #BC9CFF;
+}
+//9990 р в сутки
+.cards__roompricelux {
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  left: 153px;
+  top: 177px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  white-space: nowrap;
+  span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  }
+}
+//line block room lux
+.cards__lineroomlux {
+position: absolute;
+width: 230px;
+height: 1px;
+left: 20px;
+top: 205px;
+background: rgba(31, 32, 65, 0.1);
+}
+//star
+.cards__starroomlux1 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 20.26px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+
+.cards__starroomlux2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 44.26px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+.cards__starroomlux3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 68.26px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+.cards__starroomlux4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 92.26px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+.cards__starroomlux5 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 116px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+//text 145 отзывов
+.cards__145comments {
+position: absolute;
+width: 90px;
+height: 18px;
+left: 160px;
+top: 217.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+color: rgba(31, 32, 65, 0.5);
+span {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+}
+}
+// block standart room
+.cards__standartroom {
+  position: absolute;
+  width: 270px;
+  height: 257px;
+  left: 980px;
+  top: 856.5px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 4px;
+}
+//image standart room
+.imgstandartroom {
+position: absolute;
+width: 270px;
+height: 151.38px;
+border-radius: 4px 4px 0px 0px;
+}
+//round standart room
+.cards__roundstandartroom {
+  position: absolute;
+  width: 7.5px;
+  height: 7.49px;
+  left: 213.75px;
+  top: 128.4px;
+  background: #FFFFFF;
+  border-radius: 100%;
+  }
+  .cards__roundempty1standartroom {
+    position: absolute;
+    width: 7.5px;
+    height: 7.49px;
+    left: 225px;
+    top: 128.4px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+    box-sizing: border-box;
+box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+  }
+  .cards__roundempty2standartroom {
+    position: absolute;
+    width: 7.5px;
+    height: 7.49px;
+    left: 236.25px;
+    top: 128.4px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+    box-sizing: border-box;
+box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+  }
+  .cards__roundempty3standartroom {
+    position: absolute;
+    width: 7.5px;
+    height: 7.49px;
+    left: 247.5px;
+    top: 128.4px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+    box-sizing: border-box;
+box-shadow: 0px 5px 5px rgba(31, 32, 65, 0.3);
+  }
+// № 840
+.cards__numberroom840 {
+position: absolute;
+width: 63px;
+height: 24px;
+left: 20px;
+top: 171px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+color: #1F2041;
+white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+  line-height: 24px;
+  margin: 0;
+span {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+}
+}
+//text 9990 р в сутки 
+.cards__roompricestandart {
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  right: 17px;
+  top: 175px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(31, 32, 65, 0.5);
+  //display: inline-block;
+  white-space: nowrap;
+  span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  }
+}
+//line standart room
+.cards__linestandartroom {
+  position: absolute;
+  width: 230px;
+  height: 1px;
+  left: 20px;
+  top: 205px;
+  background: rgba(31, 32, 65, 0.1);
+}
+//star standart room
+.cards__starroomstandart1 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 20.26px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+.cards__starroomstandart2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 44.26px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+.cards__starroomstandart3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 68.26px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+.cards__starroomstandart4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 92.26px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+.cards__starroomstandart5 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 116px;
+  top: 214px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  cursor: pointer;
+}
+//text 65 отзывов
+.cards__65comments {
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: 166px;
+  top: 217.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+  span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  }
+  }
