@@ -2503,3 +2503,811 @@ span {
   font-weight: normal;
   }
   }
+  //block headers&footers
+  .hf {
+position: relative;
+width: 1440px;
+height: 1350px;
+background: #F4F4F6;
+}
+//logo block hf
+.hf__logo {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  top: 30px;
+}
+//headers1
+.hf__headers1 {
+position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 150px;
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+//logo headers1
+.hf__logoheaders1 {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 140px;
+top: 15px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+// text TOXIN
+.hf__TOXIN {
+  position: absolute;
+  width: 53.19px;
+  height: 12.95px;
+  left: 192.5px;
+  top: 28.33px;
+  background: #1F2041;
+}
+//text Home
+.hf__home {
+position: absolute;
+width: 43px;
+height: 18px;
+left: 543px;
+top: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.75);
+cursor: pointer;
+}
+//text about us
+.hf__aboutus {
+position: absolute;
+width: 70px;
+height: 18px;
+left: 616px;
+top: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//text services
+.hf__services {
+position: absolute;
+width: 56px;
+height: 18px;
+left: 710px;
+top: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//arrow down hf
+.hf__arrowdownhf {
+position: absolute;
+width: 24px;
+height: 21px;
+left: 766px;
+top: 25px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+.arrowdownhf {
+margin: 0 auto;
+
+}
+}
+//text carrers
+.hf__careers {
+position: absolute;
+width: 52px;
+height: 18px;
+left: 810px;
+top: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//text news
+.hf__news {
+position: absolute;
+width: 38px;
+height: 18px;
+left: 892px;
+top: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//text documentation
+.hf__documentation {
+position: absolute;
+width: 110px;
+height: 18px;
+left: 960px;
+top: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer
+};
+//button login
+.hf__btnlogin {
+position: absolute;
+width: 79px;
+height: 34px;
+left: 1100px;
+top: 18px;
+border-radius: 22px;
+border: 2px solid #BC9CFF;
+cursor: pointer;
+.hf__login {
+position: absolute;
+width: 39px;
+height: 15px;
+left: 20px;
+top: 9px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #BC9CFF;
+}
+}
+//button register
+.hf__register {
+position: absolute;
+width: 101px;
+height: 34px;
+left: 1199px;
+top: 18px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+border-radius: 22px;
+cursor: pointer;
+.hf__register {
+position: absolute;
+width: 62px;
+height: 15px;
+left: 19px;
+top: 9px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+}
+//block headers 2
+.hf__headers2 {
+position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 260px;
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+//logo headers 2
+.hf__logoheaders2 {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 140px;
+top: 15px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+// text TOXIN headers 2
+.hf__TOXINheaders2 {
+  position: absolute;
+  width: 53.19px;
+  height: 12.95px;
+  left: 192.5px;
+  top: 28.33px;
+  background: #1F2041;
+}
+//text Home headers 2
+.hf__homeheaders2 {
+  position: absolute;
+  width: 43px;
+  height: 18px;
+  left: 595px;
+  top: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.75);
+  cursor: pointer;
+  }
+  //text about us headers 2
+  .hf__aboutusheaders2 {
+  position: absolute;
+  width: 70px;
+  height: 18px;
+  left: 668px;
+  top: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  }
+  //text services headers 2
+  .hf__servicesheaders2 {
+  position: absolute;
+  width: 56px;
+  height: 18px;
+  left: 762px;
+  top: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  }
+  //arrow down hf headers 2
+  .hf__arrowdownheaders2 {
+  position: absolute;
+  width: 24px;
+  height: 21px;
+  left: 818px;
+  top: 24px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  .arrowdownhf {
+  margin: 0 auto;
+  }
+  }
+  //text carrers headers 2
+  .hf__careersheaders2 {
+  position: absolute;
+  width: 52px;
+  height: 18px;
+  left: 862px;
+  top: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  }
+  //text news headers 2
+  .hf__newsheaders2 {
+  position: absolute;
+  width: 38px;
+  height: 18px;
+  left: 944px;
+  top: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  }
+  //text documentation headers 2
+  .hf__documentationheaders2 {
+  position: absolute;
+  width: 110px;
+  height: 18px;
+  left: 1012px;
+  top: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer
+  }
+  //line headers 2
+  .hf__lineheaders2 {
+position: absolute;
+height: 30px;
+left: 1155px;
+top: 20px;
+border-left: 1px solid rgba(31, 32, 65, 0.1);
+}
+//text cosmin negoita
+.hf__cosminnegoita {
+position: absolute;
+width: 114px;
+height: 18px;
+left: 1186px;
+top: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+}
+//block footer 1
+.hf__footer1 {
+position: absolute;
+width: 1440px;
+height: 372px;
+left: 0px;
+top: 370px;
+background: #FFFFFF;
+box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+//logo footer 1
+.hf__logofooter1 {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 140px;
+top: 100px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+
+}
+// text TOXIN footer 1
+.hf__TOXINfooter1 {
+position: absolute;
+width: 53.19px;
+height: 12.95px;
+left: 192.5px;
+top: 113.33px;
+background: #1F2041;
+}
+//text under logo
+.hf__textunderlogo {
+position: absolute;
+width: 260px;
+height: 96px;
+left: 140px;
+top: 160px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+}
+//text navigation
+.hf__navigation {
+position: absolute;
+width: 81px;
+height: 15px;
+left: 440px;
+top: 104px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//text about us
+.hf__aboutusfooter1 {
+  position: absolute;
+  width: 68px;
+  height: 18px;
+  left: 440px;
+  top: 140px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text news
+.hf__newsfooter1 {
+  position: absolute;
+  width: 39px;
+  height: 18px;
+  left: 440px;
+  top: 178px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//text support
+.hf__supportfooter1 {
+  position: absolute;
+  width: 58px;
+  height: 18px;
+  left: 440px;
+  top: 216px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//text products
+.hf__productsfooter1 {
+  position: absolute;
+  width: 64px;
+  height: 18px;
+  left: 440px;
+  top: 254px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text about us bold
+.hf__aboutusboldfooter1 {
+  position: absolute;
+  width: 68px;
+  height: 15px;
+  left: 640px;
+  top: 104px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+
+}
+//text who we are
+.hf__whowearefooter1 {
+  position: absolute;
+  width: 85px;
+  height: 18px;
+  left: 640px;
+  top: 140px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text our team
+.hf__ourteamfooter1{
+  position: absolute;
+  width: 70px;
+  height: 18px;
+  left: 640px;
+  top: 178px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text carrers column about us
+.hf__careerscolumnaboutus {
+  position: absolute;
+  width: 53px;
+  height: 18px;
+  left: 640px;
+  top: 216px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//text investors
+.hf__investorsfooter1 {
+  position: absolute;
+  width: 61px;
+  height: 18px;
+  left: 640px;
+  top: 254px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text support bold
+.hf__supportbold {
+  position: absolute;
+  width: 59px;
+  height: 15px;
+  left: 840px;
+  top: 104px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+//text documentation
+.hf__documentationfooter1 {
+position: absolute;
+width: 113px;
+height: 18px;
+left: 840px;
+top: 140px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//text community
+.hf__communityfooter1 {
+position: absolute;
+width: 84px;
+height: 18px;
+left: 840px;
+top: 178px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//text get in touch
+.hf__getintouchfooter1 {
+  position: absolute;
+  width: 89px;
+  height: 18px;
+  left: 840px;
+  top: 216px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text Subscribe to our newsletter
+.hf__subscribefooter1 {
+  position: absolute;
+  width: 220px;
+  height: 15px;
+  left: 1040px;
+  top: 104px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+//text Receive our latest news and promotions in your inbox!
+.hf__columnsubscribefooter1 {
+position: absolute;
+width: 196px;
+height: 48px;
+left: 1040px;
+top: 140px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+cursor: pointer;
+}
+//form email adress
+.hf__formmailfooter1 {
+position: absolute;
+width: 260px;
+height: 44px;
+left: 1040px;
+top: 208px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+//placeholder input email block footer1
+.hf__formmailfooter1::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 44px;
+color: rgba(31, 32, 65, 0.25);
+}
+//img arrow forward
+.hf__arrowforwardfooter1 {
+position: absolute;
+width: 44px;
+height: 44px;
+left: 1256px;
+top: 208px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+cursor: pointer;
+.arrowforwardfooter1 {
+  margin: 0 auto;
+}
+}
+//footer 2
+.hf__footer2 {
+position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 743px;
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+//text Copyright © 2018 Toxin UI Kit. All rights reserved
+.hf__copyrightfooter2 {
+position: absolute;
+width: 340px;
+height: 18px;
+left: 140px;
+top: 26px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: rgba(31, 32, 65, 0.75);
+}
+//twitter
+.hf__twitterfooter2 {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1188px;
+top: 23px;
+}
+//facebook
+.hf__facebookfooter2 {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1232px;
+top: 23px;
+}
+//instagram
+.hf__instagramfooter2 {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1276px;
+top: 23px;
+}
+//footer 3
+.hf__footer3 {
+position: absolute;
+width: 1440px;
+height: 367px;
+left: 0px;
+top: 853px;
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+//logo footer 3
+.hf__logofooter3 {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 667px;
+top: 100px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+//text toxin footer 3
+.hf__TOXINfooter3 {
+position: absolute;
+width: 53.19px;
+height: 12.95px;
+left: 719.5px;
+top: 113.33px;
+background: #1F2041;
+}
+// text Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.
+.hf__textunderlogofooter3 {
+position: absolute;
+width: 560px;
+height: 48px;
+left: 440px;
+top: 160px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+color: rgba(31, 32, 65, 0.75);
+}
+//twitter footer 3
+.hf__twitterfooter3 {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 664px;
+top: 233px;
+}
+//facebook
+.hf__facebookfooter3 {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 708px;
+top: 233px;
+}
+//instagram
+.hf__instagramfooter3 {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 752px;
+top: 233px;
+}
