@@ -92,6 +92,9 @@ display: inline-block;
 line-height: 40px;
 }
 
+body {background: #E5E5E5;
+flex: wrap;}
+
 //Colors&Type
 
 .block {
@@ -100,6 +103,8 @@ line-height: 40px;
   height: 900px;
   background:#ffffff;
   padding-right: 300px;
+  margin: 50px;
+  display: inline-block;
 }
 //vector
 .block__logo {
@@ -280,6 +285,8 @@ line-height: 40px;
   width: 1440px;
   height: 1350px;
   background: #F4F4F6;
+  margin: 50px 50px 50px 0;
+  display: inline-block;
 }
 //vector
 .cards__logo {
@@ -1631,7 +1638,7 @@ box-sizing: border-box;
 border-radius: 4px;
 padding-left: 15px;
 }
-//placholder
+//placeholder
 .cards__formdateofbirth::-webkit-input-placeholder {
 font-family: Montserrat;
 font-style: normal;
@@ -2509,6 +2516,8 @@ position: relative;
 width: 1440px;
 height: 1350px;
 background: #F4F4F6;
+margin: 50px 50px 50px 0;
+display: inline-block;
 }
 //logo block hf
 .hf__logo {
@@ -3311,3 +3320,2046 @@ height: 24px;
 left: 752px;
 top: 233px;
 }
+//block form elements
+.fe {
+position: relative;
+width: 1440px;
+height: 1853px;
+background: #FFFFFF;
+margin: 0px 50px 50px 50px;
+display: inline-block;
+}
+//logo block fe
+.fe__logo {
+position: absolute;
+width: 48px;
+height: 48px;
+left: 30px;
+top: 30px;
+background: rgba(31, 32, 65, 0.25);
+}
+//text field and text default
+.fe__textfield {
+position: absolute;
+width: 72px;
+height: 15px;
+left: 141px;
+top: 143px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+.fe__textdefault {
+position: absolute;
+width: 57px;
+height: 15px;
+left: 403.74px;
+top: 140px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+text-transform: uppercase;
+color: rgba(31, 32, 65, 0.5);
+}
+//input email
+.fe__inputemail {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 141px;
+top: 163px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+}
+.fe__inputemail::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.25);
+  padding-left: 15px;
+}
+//text field and hover/focus
+.fe__textfield2 {
+position: absolute;
+width: 72px;
+height: 15px;
+left: 141px;
+top: 227.44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+.fe__hoverfocus {
+position: absolute;
+width: 96px;
+height: 15px;
+left: 364.74px;
+top: 227px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+text-transform: uppercase;
+color: rgba(31, 32, 65, 0.5);
+}
+//input This is pretty awesome
+.fe__inputpretty {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 141px;
+top: 247.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.5);
+box-sizing: border-box;
+border-radius: 4px;
+}
+.fe__inputpretty::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+padding-left: 15px;
+}
+//text Dropdown
+.fe__dropdown {
+position: absolute;
+width: 81px;
+height: 15px;
+left: 141px;
+top: 311.44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//text default 2
+.fe__textdefault2 {
+  position: absolute;
+  width: 57px;
+  height: 15px;
+  left: 403.74px;
+  top: 311px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+}
+//input сколько гостей
+.fe__guests {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 141px;
+top: 331.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+}
+.fe__guests::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+padding-left: 15px;
+}
+//arrow down block fe
+.fe__arrowdownfe {
+position: absolute;
+width: 44px;
+height: 44px;
+left: 416.74px;
+top: 331px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.5);
+.arrowdownfe {
+  margin: 0 auto;
+}
+}
+//text masked text field and text Default 3
+.fe__masked {
+position: absolute;
+width: 130px;
+height: 15px;
+left: 141px;
+top: 398px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+.fe__default3 {
+position: absolute;
+width: 57px;
+height: 15px;
+left: 403.74px;
+top: 395px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+text-transform: uppercase;
+color: rgba(31, 32, 65, 0.5);
+}
+//input date
+.fe__inputdate {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 141px;
+top: 418px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+.fe__inputdate::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.25);
+}
+//text date dropdown
+.fe__datedropdown {
+position: absolute;
+width: 150px;
+height: 15px;
+left: 141px;
+top: 502px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//input date 2
+.fe__inputdate2 {
+position: absolute;
+width: 150px;
+height: 44px;
+left: 141px;
+top: 522.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+.fe__inputdate2::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.75);
+}
+//arrow down input date 2
+.fe__arrowdowninputdate2 {
+position: absolute;
+width: 44px;
+height: 44px;
+left: 247px;
+top: 523px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.5);
+.arrowdowninputdate2 {
+  margin: 0 auto;
+}
+}
+//text date Dropdown 2
+.fe__datedropdown2 {
+position: absolute;
+width: 150px;
+height: 15px;
+left: 311px;
+top: 502px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//input date 3
+.fe__inputdate3 {
+position: absolute;
+width: 150px;
+height: 44px;
+left: 311px;
+top: 522.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+.fe__inputdate3::-webkit-input-placeholder {
+position: absolute;
+width: 103px;
+height: 24px;
+left: 326px;
+top: 534px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+}
+//arrow down input date 3
+.fe__arrowdowninputdate3 {
+position: absolute;
+width: 44px;
+height: 44px;
+left: 417px;
+top: 523px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.5);
+.arrowdowninputdate3 {
+  margin: 0 auto;
+}
+}
+//text filter date dropdown
+.fe__filterdate {
+position: absolute;
+width: 197px;
+height: 15px;
+left: 141px;
+top: 607px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//input filter date
+.fe__inputfilterdate {
+position: absolute;
+width: 266px;
+height: 44px;
+left: 141px;
+top: 627px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+padding-left: 15px;
+}
+.fe__inputfilterdate::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+}
+//arrow down input filter date
+.fe__arrowdownfilterdate {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 363px;
+  top: 628px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  .arrowdownfilterdate {
+  margin: 0 auto;
+  }
+}
+//subscription text field
+.fe__subscription {
+position: absolute;
+width: 170px;
+height: 15px;
+left: 141px;
+top: 712px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+// input email 2
+.fe__inputemail2 {
+  position: absolute;
+  width: 267px;
+  height: 44px;
+  left: 140px;
+  top: 732px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 15px;
+}
+//text dropdown  and default
+.fe__dropdown2 {
+position: absolute;
+width: 81px;
+height: 15px;
+left: 140px;
+top: 876px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//text default 4
+.fe__default4 {
+position: absolute;
+width: 57px;
+height: 15px;
+left: 349px;
+top: 876px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+text-transform: uppercase;
+color: rgba(31, 32, 65, 0.5);
+}
+//input 2 спальни и 2 кровати
+.fe__bedandbedroom {
+  position: absolute;
+  width: 266px;
+  height: 44px;
+  left: 140px;
+  top: 896px;
+    background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+padding-left: 15px;
+}
+.fe__bedandbedroom::-webkit-input-placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+}
+//arrow down bed and bedroom
+.fe__arrowdownbedandbedroom {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 362px;
+  top: 896px;
+  
+  text-align: center;
+  line-height: 44px;
+}
+//text dropdown3  and expanded
+.fe__dropdown3 {
+  position: absolute;
+width: 81px;
+height: 15px;
+left: 140px;
+top: 960px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+.fe__expanded {
+position: absolute;
+width: 70px;
+height: 15px;
+left: 336px;
+top: 960px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+text-transform: uppercase;
+color: rgba(31, 32, 65, 0.5);
+}
+//блок выбора количества спален, кроватей
+.fe__choicebedroom {
+  position: absolute;
+  width: 266px;
+  height: 44px;
+  left: 140px;
+  top: 979.56px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  padding-left: 15px;
+}
+.fe__choicebedroom::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+//arrow down блок выбора количества спален, кроватей
+.fe__arrowdownchoicebedroom {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 362px;
+  top: 980px;
+  text-align: center;
+  line-height: 44px;
+}
+.fe__blockchoicebedroom {
+position: absolute;
+width: 266px;
+height: 119px;
+left: 140px;
+top: 1022.56px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.5);
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+box-sizing: border-box;
+}
+//text спальни кровати ванные комнаты
+.fe__textbedrooms {
+  position: absolute;
+width: 83px;
+height: 15px;
+left: 155px;
+top: 1035.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+.fe__textbeds {
+  position: absolute;
+width: 83px;
+height: 15px;
+left: 155px;
+top: 1072.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+.fe__bathrooms {
+  position: absolute;
+width: 133px;
+height: 15px;
+left: 155px;
+top: 1109.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//button minus
+.fe__buttonminus1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 307px;
+  top: 1029.56px;
+  
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 22px;
+  display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+}
+.fe__buttonminus2 {
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 307px;
+top: 1066.56px;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 22px;
+display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+}
+.fe__buttonminus3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 307px;
+ top: 1104.56px;
+  line-height: 30px;
+  border: 1px solid rgba(31, 32, 65, 0.1);
+  box-sizing: border-box;
+  border-radius: 22px;
+  display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+hr {
+  opacity: 0.3;
+}
+}
+//numeral 2, 2, 0
+.fe__numeral2 {
+  position: absolute;
+  width: 92px;
+  height: 15px;
+  left: 307px;
+  top: 1035.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__numeral2beds {
+position: absolute;
+width: 92px;
+height: 15px;
+left: 307px;
+top: 1072.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #1F2041;
+}
+.fe__numeral0 {
+position: absolute;
+width: 92px;
+height: 15px;
+left: 307px;
+top: 1109.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #1F2041;
+}
+//button plus
+.fe__buttonplus1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 369px;
+  top: 1029.56px;
+  
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 22px;
+  display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+span {
+  color:  rgba(31, 32, 65, 0.5);
+  font-weight: bold;
+}
+}
+.fe__buttonplus2 {
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 369px;
+top: 1066.56px;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 22px;
+display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+span {
+  color:  rgba(31, 32, 65, 0.5);
+  font-weight: bold;
+}
+}
+.fe__buttonplus3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 369px;
+  top: 1103.56px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 22px;
+  display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+span {
+  color:  rgba(31, 32, 65, 0.5);
+  font-weight: bold;
+}
+}
+//text expandable checkbox list
+.fe__expandable {
+  position: absolute;
+width: 192px;
+height: 15px;
+left: 141px;
+top: 1196px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//arrow down text expandable checkbox list
+.fe__arrowdownexpandable {
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 363px;
+top: 1182px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.5);
+.arrowdownexpandable {
+  margin: 0 auto;
+}
+}
+//text expandable checkbox list
+.fe__expandable2 {
+  position: absolute;
+width: 192px;
+height: 15px;
+left: 140px;
+top: 1260px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//arrow up text expandable checkbox list
+.fe__arrowupexpandable {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 363px;
+  top: 1246px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  transform: rotate(-180deg);
+  .arrowupexpandable {
+    margin: 0 auto;
+  }
+}
+//check box active Завтарк
+
+.fe__checkbox1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 140px;
+  top: 1292.44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+//text Завтрак
+.fe__Завтрак {
+position: absolute;
+width: 59px;
+height: 18px;
+left: 169.74px;
+top: 1293px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+cursor: pointer;
+}
+//checkbox Письменный стол
+.fe__checkbox2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 140px;
+  top: 1323px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+border-radius: 4px;
+cursor: pointer;
+img {
+position: absolute;
+left: 4.05px;
+top: 3.05px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+transform: rotate(360deg);
+cursor: pointer;
+}
+}
+//checkbox active
+.fe__checkboxactive1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 140px;
+  top: 1323px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+border-radius: 4px;
+  .vector1 {
+position: absolute;
+left: 4.05px;
+top: 3.05px;
+}
+}
+.fe__Письменныйстол {
+  position: absolute;
+  width: 132px;
+  height: 18px;
+  left: 170px;
+  top: 1324px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+   color: rgba(31, 32, 65, 0.5);
+   }
+//checkbox стул для кормления
+.fe__checkbox3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 140px;
+  top: 1353px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+border-radius: 4px;
+cursor: pointer;
+img {
+position: absolute;
+left: 4.05px;
+top: 3.05px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+transform: rotate(360deg);
+cursor: pointer;
+}
+}
+.fe__стулдлякормления {
+position: absolute;
+width: 192px;
+height: 18px;
+left: 170px;
+top: 1354px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+}
+//checkbox кроватка
+.fe__checkbox4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 140px;
+  top: 1383px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+border-radius: 4px;
+cursor: pointer;
+img {
+position: absolute;
+left: 4.05px;
+top: 3.05px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+transform: rotate(360deg);
+cursor: pointer;
+}
+}
+.fe__кроватка {
+position: absolute;
+width: 192px;
+height: 18px;
+left: 170px;
+top: 1384px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+}
+//checkbox телевизор
+.fe__checkbox5 {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 140px;
+top: 1413.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+}
+//check box телевизор
+.fe__checkbox5 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 140px;
+  top: 1413.44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.fe__телевизор {
+position: absolute;
+width: 78px;
+height: 18px;
+left: 169.74px;
+top: 1414px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+}
+//checkbox шампунь
+.fe__checkbox6 {
+  position: absolute;
+width: 20px;
+height: 20px;
+left: 140px;
+top: 1443.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+cursor: pointer;
+}
+.fe__шампунь {
+position: absolute;
+width: 70px;
+height: 18px;
+left: 169.74px;
+top: 1444px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+}
+//image smile
+.fe__smile {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 140px;
+  top: 1564px;
+  img {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+}
+.fe__textcomfort {
+position: absolute;
+width: 233px;
+height: 48px;
+left: 198px;
+top: 1567px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+}
+}
+//line
+.fe__linesalid1 {
+  position: absolute;
+width: 280px;
+height: 1px;
+left: 140px;
+top: 1632px;
+background: rgba(31, 32, 65, 0.1);
+}
+//image house
+.fe__imagehouse {
+position: absolute;
+width: 48px;
+height: 48px;
+left: 140px;
+top: 1653px;
+img {
+margin-top: 4px;
+margin-left: 4px;
+}
+}
+//text удобство
+.fe__textудобство {
+  position: absolute;
+width: 222px;
+height: 48px;
+left: 198px;
+top: 1656px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+  }
+  }
+  //line2
+  .fe__linesalid2 {
+position: absolute;
+width: 280px;
+height: 1px;
+left: 140px;
+top: 1721px;
+background: rgba(31, 32, 65, 0.1);
+}
+//Checkbox Buttons
+.fe__checkboxbuttons {
+position: absolute;
+width: 136px;
+height: 15px;
+left: 587px;
+top: 143px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//checkbox можно курить
+.fe__checkboxможнокурить {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 587px;
+top: 174.56px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+}
+.fe__можнокурить {
+position: absolute;
+width: 105px;
+height: 18px;
+left: 616.74px;
+top: 175.12px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+}
+//checkbox можно с питомцами
+.fe__checkboxможноспитомцами {
+  position: absolute;
+  width: 20px;
+height: 20px;
+left: 587px;
+top: 205.12px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+border-radius: 4px;
+cursor: pointer;
+img {
+position: absolute;
+left: 4.05px;
+top: 3.05px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+transform: rotate(360deg);
+cursor: pointer;
+}
+}
+.fe__можноспитомцами {
+position: absolute;
+width: 151px;
+height: 18px;
+left: 617px;
+top: 206.12px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+}
+//checkbox можно пригласить гостей до 10 человек
+.fe__checkboxгостидо10человек {
+  position: absolute;
+  width: 20px;
+height: 20px;
+left: 587px;
+top: 235.12px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+border-radius: 4px;
+cursor: pointer;
+img {
+position: absolute;
+left: 4.05px;
+top: 3.05px;
+background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+transform: rotate(360deg);
+cursor: pointer;
+}
+}
+.fe__гостидо10человек {
+position: absolute;
+width: 192px;
+height: 36px;
+left: 617px;
+top: 236.12px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.5);
+}
+//Radio Buttons
+.fe__radiobuttons {
+position: absolute;
+width: 107px;
+height: 15px;
+left: 587px;
+top: 313px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//radio button active
+.fe__button_men {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 587px;
+  top: 344px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  .fe__button_menchecked {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 3px;
+  top: 3px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 10px;
+  }
+  }
+//text Мужчина
+.fe__textмужчина {
+position: absolute;
+width: 68px;
+height: 24px;
+left: 617px;
+top: 344px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+  }
+  //radiobutton women inactive
+.fe__button_women {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 705px;
+  top: 344px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  }
+  //text Женщина
+.fe__textженщина {
+  position: absolute;
+  width: 73px;
+  height: 24px;
+  left: 734.74px;
+  top: 343.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.5);
+  }
+//Toggle
+.fe__toggle {
+  position: absolute;
+width: 50px;
+height: 15px;
+left: 587px;
+top: 404.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//toggle active
+.fe__toggle1 {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  left: 587px;
+  top: 435.56px;
+  background: #FFFFFF;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+.fe__toggleactive {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 23px;
+  top: 3px;
+   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 10px;
+}
+}
+//text Получать спецпредложения
+.fe__получатьспецпредложения {
+position: absolute;
+width: 210px;
+height: 24px;
+left: 637px;
+top: 435.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+}
+//toggle inactive
+.fe__toggle2 {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  left: 587px;
+  top: 469.56px;
+  background: #FFFFFF;
+  /* Dark 25% */
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 10px;
+.fe__toggleinactive {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 3px;
+  top: 3px;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+}
+}
+//получатьспецпредложения2
+.fe__получатьспецпредложения2 {
+  position: absolute;
+  width: 210px;
+  height: 24px;
+  left: 637px;
+  top: 469.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+//like button
+.fe__likebutton {
+position: absolute;
+width: 85px;
+height: 15px;
+left: 587px;
+top: 534px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//like button inactive
+.fe__likebuttoninactive {
+position: absolute;
+width: 40px;
+height: 20px;
+left: 587px;
+top: 565px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 10px;
+}
+.fe__favoriteinactive {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 587px;
+  top: 565px;
+  img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  }
+.fe__number2 {
+position: absolute;
+width: 6px;
+height: 11px;
+left: 609px;
+top: 569px;
+color: rgba(31, 32, 65, 0.25);
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+}
+//like button active
+.fe__likebuttonactive {
+position: absolute;
+width: 39.72px;
+height: 20px;
+left: 637px;
+top: 565px;
+border: 1px solid #BC9CFF;
+box-sizing: border-box;
+border-radius: 10px;
+}
+.fe__number12 {
+  position: absolute;
+  width: 9.93px;
+  height: 11px;
+  left: 656.86px;
+top: 569px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #BC9CFF;
+}
+.fe__favoriteactive {
+position: absolute;
+width: 19.86px;
+height: 20px;
+left: 637px;
+top: 565px;
+img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+}
+//rate button
+.fe__ratebutton {
+  position: absolute;
+  width: 90px;
+  height: 15px;
+  left: 587px;
+  top: 625px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+//stars active 4 and 1 inactive
+.fe__starsactive1 {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 587px;
+top: 656px;
+}
+.fe__starsactive2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 611px;
+  top: 656px;
+}
+.fe__starsactive3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 635px;
+  top: 656px;
+}
+.fe__starsactive4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 659px;
+  top: 656px;
+}
+.fe__starinactive {
+position: absolute;
+width: 24px;
+height: 24px;
+left: 683px;
+top: 656px;
+}
+//stars active 5
+.fe__starsactive5 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 727px;
+  top: 656px;
+}
+.fe__starsactive6 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 751px;
+  top: 656px;
+}
+.fe__starsactive7 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 775px;
+  top: 656px;
+}
+.fe__starsactive8 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 799px;
+  top: 656px;
+}
+.fe__starsactive9 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 822.74px;
+  top: 656px;
+}
+//dropdown 4
+.fe__dropdown4 {
+  position: absolute;
+width: 81px;
+height: 15px;
+left: 587px;
+top: 876px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+.fe__сколькогостей {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 587px;
+top: 896px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.5);
+box-sizing: border-box;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+.fe__textсколькогостей {
+position: absolute;
+width: 112px;
+height: 18px;
+left: 602px;
+top: 908.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.75);
+}
+.fe__arrowdownсколькогостей {
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 863px;
+top: 896px;
+font-family: Material Icons;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(31, 32, 65, 0.75);
+.arrowdownсколькогостей {
+  margin: 0 auto;
+}
+}
+.fe__взрослыедетимладенцы {
+position: absolute;
+width: 320px;
+height: 159px;
+left: 587px;
+top: 938.56px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.5);
+box-sizing: border-box;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.fe__textвзрослые {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 15px;
+  top: 13px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__textдети {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 15px;
+  top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__textмладенцы {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 15px;
+  top: 87px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__countвзрослые {
+  position: absolute;
+  width: 92px;
+  height: 15px;
+  left: 221px;
+  top: 13px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__countдети {
+  position: absolute;
+  width: 92px;
+  height: 15px;
+  left: 221px;
+  top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__countмладенцы {
+  position: absolute;
+  width: 92px;
+  height: 15px;
+  left: 221px;
+  top: 87px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+//button minus
+.fe__buttonminusвзрослые {
+position: absolute;
+width: 30px;
+height: 30px;
+left: 221px;
+top: 7.44px;
+  line-height: 30px;
+  border: 1px solid rgba(31, 32, 65, 0.1);
+  box-sizing: border-box;
+  border-radius: 22px;
+  display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+hr {
+  opacity: 0.3;
+}
+}
+.fe__buttonminusдети {
+position: absolute;
+width: 30px;
+height: 30px;
+left: 221px;
+top: 44.44px;
+  line-height: 30px;
+  border: 1px solid rgba(31, 32, 65, 0.1);
+  box-sizing: border-box;
+  border-radius: 22px;
+  display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+hr {
+  opacity: 0.3;
+}
+}
+.fe__buttonminusмладенцы {
+position: absolute;
+width: 30px;
+height: 30px;
+left: 221px;
+top: 81px;
+  line-height: 30px;
+  border: 1px solid rgba(31, 32, 65, 0.1);
+  box-sizing: border-box;
+  border-radius: 22px;
+  display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+hr {
+  opacity: 0.3;
+}
+}
+//button plus
+.fe__buttonplusвзрослые {
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 283px;
+top: 7px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 22px;
+  display: flex;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+span {
+  color:  rgba(31, 32, 65, 0.5);
+  font-weight: bold;
+}
+}
+.fe__buttonplusдети {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 283px;
+  top: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 22px;
+    display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  span {
+    color:  rgba(31, 32, 65, 0.5);
+    font-weight: bold;
+  }
+}
+.fe__buttonplusмладенцы {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 283px;
+  top: 82px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 22px;
+    display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  span {
+    color:  rgba(31, 32, 65, 0.5);
+    font-weight: bold;
+  }
+}
+//text применить
+.fe__textприменить {
+position: absolute;
+width: 84px;
+height: 15px;
+left: 229px;
+top: 131px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #BC9CFF;
+}
+//text Rich Checkbox Buttons
+.fe__textrichcheckboxbuttons {
+  position: absolute;
+width: 171px;
+height: 15px;
+left: 587px;
+top: 1196px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+//checkbox Rich Checkbox Buttons
+.fe__checkboxrichbuttons {
+position: absolute;
+width: 20px;
+height: 20px;
+left: 587px;
+top: 1227px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+}
+//text широкий коридор
+.fe__textширокийкоридор {
+position: absolute;
+width: 144px;
+height: 18px;
+left: 617px;
+top: 1228px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.75);
+}
+//text Ширина коридоров в номере не менее 91 см.
+.fe__размеркоридора {
+position: absolute;
+width: 203px;
+height: 28px;
+left: 617px;
+top: 1251px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: rgba(31, 32, 65, 0.5);
+}
+//checkbox Помощник для инвалидов
+.fe__checkboxпомощникдляинвалидов {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 587px;
+  top: 1289px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+//text Помощник для инвалидов
+.fe__textпомощникдляинвалидов {
+  position: absolute;
+  width: 203px;
+  height: 18px;
+  left: 617px;
+  top: 1290px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.75);
+}
+//text  На 1 этаже вас встретит специалист и проводит до номера.
+.fe__textпомощьинвалидам {
+position: absolute;
+width: 236px;
+height: 28px;
+left: 617px;
+top: 1313px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: rgba(31, 32, 65, 0.5);
+}
+//avatarka
+.fe__avatarka {
+position: absolute;
+width: 47.67px;
+height: 48px;
+left: 587px;
+top: 1574px;
+}
+//text Мурад Сарафанов 5 дней назад
+.fe__textмурадсарафанов {
+  position: absolute;
+  width: 220.45px;
+  height: 48px;
+  left: 644.6px;
+  top: 1577px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+//button likes
+.fe__buttonlikes {
+  position: absolute;
+  width: 39.72px;
+height: 20px;
+left: 590.97px;
+top: 1634px;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  }
+  .fe__12 {
+    position: absolute;
+    width: 9.93px;
+    height: 11px;
+    left: 610.83px;
+    top: 1638px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #BC9CFF;
+  }
+  .fe__likes {
+  position: absolute;
+  width: 19.86px;
+height: 20px;
+left: 590.97px;
+top: 1634px;
+  img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  }
+//text Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.
+.fe__отзыв {
+  position: absolute;
+  width: 653px;
+  height: 72px;
+  left: 645px;
+  top: 1635px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  }
