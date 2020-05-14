@@ -5287,6 +5287,12 @@ width: 47.67px;
 height: 48px;
 left: 587px;
 top: 1574px;
+overflow: hidden;
+border-radius: 30px;
+img {
+
+margin: -10px -20px -30px -20px;
+}
 }
 //text Мурад Сарафанов 5 дней назад
 .fe__textмурадсарафанов {
@@ -5363,3 +5369,764 @@ top: 1634px;
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
   }
+  //text Range Slider and 5 000₽ - 10 000₽
+.fe__textrangeslider {
+  position: absolute;
+  width: 95px;
+  height: 15px;
+  left: 979px;
+  top: 143.44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__price {
+  position: absolute;
+  width: 103px;
+  height: 15px;
+  left: 1142.74px;
+  top: 143px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+}
+//line slider
+.fe__lineslider {
+position: absolute;
+width: 266px;
+height: 6px;
+left: 979px;
+top: 181.44px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 3px;
+}
+.fe__leftslider {
+position: absolute;
+width: 12px;
+height: 12px;
+left: 1056px;
+top: 177px;
+background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+border: 2px solid #FFFFFF;
+border-radius: 10px;
+z-index: 1;
+}
+.fe__slider {
+position: absolute;
+width: 88px;
+height: 6px;
+left: 1061px;
+top: 181.44px;
+background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+border-radius: 3px;
+}
+.fe__rightslider {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 1141px;
+  top: 177px;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  z-index: 1;
+}
+//text buttons
+.fe__buttons {
+  position: absolute;
+  width: 61px;
+  height: 15px;
+  left: 979px;
+  top: 231px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+//buttons
+.fe__button1 {
+  position: absolute;
+  width: 99px;
+  height: 44px;
+  left: 980px;
+  top: 262px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  span {
+    position: absolute;
+    width: 59px;
+    height: 15px;
+    left: 19px;
+    top: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    white-space: nowrap;
+  }
+}
+.fe__button2 {
+  position: absolute;
+  width: 99px;
+  height: 44px;
+  left: 1098px;
+  top: 262px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  opacity: 0.5;
+  border-radius: 22px;
+span {
+  position: absolute;
+  width: 59px;
+  height: 15px;
+  left: 20px;
+  top: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+}
+.fe__button3 {
+  position: absolute;
+  width: 99px;
+  height: 44px;
+  left: 979px;
+  top: 336px;
+  border: 2px solid  #BC9CFF;
+  border-radius: 22px;
+span {
+  position: absolute;
+  width: 59px;
+  height: 15px;
+  left: 20px;
+  top: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #BC9CFF;
+  white-space: nowrap;
+}
+}
+.fe__button4 {
+  position: absolute;
+  width: 99px;
+  height: 44px;
+  left: 1098px;
+  top: 336px;
+  border: 2px solid  #BC9CFF;
+  opacity: 0.5;
+  border-radius: 22px;
+span {
+  position: absolute;
+  width: 59px;
+  height: 15px;
+  left: 20px;
+  top: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #BC9CFF;
+  white-space: nowrap;
+}
+}
+//text clickme
+.fe__textclickme_blue {
+  position: absolute;
+  width: 61px;
+  height: 15px;
+  left: 980px;
+  top: 411px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #BC9CFF;
+}
+.fe__textclickme_black {
+  position: absolute;
+  width: 61px;
+  height: 15px;
+  left: 1061px;
+  top: 410.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+}
+//button payment
+.fe__buttonpayment {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 979px;
+  top: 456px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+}
+.fe__textперейтикоплате {
+  position: absolute;
+  width: 280px;
+  height: 15px;
+  left: 20px;
+  top: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.fe__arrowforward {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 1255px;
+  top: 456px;
+ img {
+position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  }
+}
+//pagination
+.fe__textpagination {
+  position: absolute;
+  width: 81px;
+  height: 15px;
+  left: 980px;
+  top: 540px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 980px;
+  top: 571.44px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+}
+.fe__2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1020px;
+  top: 571px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(31, 32, 65, 0.5);
+  text-align: center;
+  line-height: 40px;
+}
+.fe__3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1060px;
+  top: 571px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  line-height: 40px;
+  color: rgba(31, 32, 65, 0.5);
+}
+.fe__points {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1099.74px;
+  top: 571px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(31, 32, 65, 0.5);
+  text-align: center;
+  line-height: 40px;
+}
+.fe__15 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1139.74px;
+  top: 571px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+ text-align: center;
+ line-height: 40px;
+  color: rgba(31, 32, 65, 0.5);
+}
+.fe__arrowright {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1180px;
+  top: 571.44px;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  border-radius: 22px;
+  img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 8px;
+    top: 8px;
+  }
+}
+.fe__rentaloptions {
+  position: absolute;
+  width: 229px;
+  height: 24px;
+  left: 985px;
+  top: 622px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+//dropdown5
+.fe__dropdown5 {
+  position: absolute;
+  width: 81px;
+  height: 15px;
+  left: 979px;
+  top: 876px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__dropdown3гостя {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 979px;
+  top: 896px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.fe__3гостя {
+  position: absolute;
+  width: 50px;
+  height: 18px;
+  left: 994px;
+  top: 908.56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.75);
+}
+.fe__arrowdown3гостя {
+  position: absolute;
+width: 44px;
+height: 44px;
+left: 1255px;
+top: 896px;
+  img {
+position: absolute;
+margin: auto;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+ }
+}
+.fe__textвзрослыедетимладенцы {
+  position: absolute;
+  width: 320px;
+  height: 159px;
+  left: 979px;
+  top: 938.56px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.fe__взрослые {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 15px;
+  top: 13px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__дети {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 15px;
+  top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__младенцы {
+  position: absolute;
+  width: 83px;
+  height: 15px;
+  left: 15px;
+  top: 87px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__взрослые2 {
+  position: absolute;
+  width: 92px;
+  height: 15px;
+  left: 221px;
+  top: 13px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__дети1 {
+  position: absolute;
+  width: 92px;
+  height: 15px;
+  left: 221px;
+  top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+.fe__младенцы0 {
+  position: absolute;
+  width: 92px;
+  height: 15px;
+  left: 221px;
+  top: 87px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+   color: #1F2041;
+}
+//button minus
+.fe__buttonminusвзрослые2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 221px;
+  top: 7.44px;
+    line-height: 30px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 22px;
+    display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  hr {
+    opacity: 0.7;
+  }
+  }
+  .fe__buttonminusдети1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 221px;
+  top: 44.44px;
+    line-height: 30px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 22px;
+    display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  hr {
+    opacity: 0.7;
+  }
+  }
+  .fe__buttonminusмладенцы0 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 221px;
+  top: 81px;
+    line-height: 30px;
+    border: 1px solid rgba(31, 32, 65, 0.1);
+    box-sizing: border-box;
+    border-radius: 22px;
+    display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  hr {
+    opacity: 0.3;
+  }
+  }
+  //button plus
+  .fe__buttonplusвзрослые2 {
+    position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 283px;
+  top: 7px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 22px;
+    display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  span {
+    color:  rgba(31, 32, 65, 0.5);
+    font-weight: bold;
+  }
+  }
+  .fe__buttonplusдети1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 283px;
+    top: 44px;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 22px;
+      display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    span {
+      color:  rgba(31, 32, 65, 0.5);
+      font-weight: bold;
+    }
+  }
+  .fe__buttonplusмладенцы0 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 283px;
+    top: 82px;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 22px;
+      display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    span {
+      color:  rgba(31, 32, 65, 0.5);
+      font-weight: bold;
+    }
+  }
+// text очистить
+.fe__textочистить {
+position: absolute;
+width: 72px;
+height: 15px;
+left: 14px;
+top: 131px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: rgba(31, 32, 65, 0.5);
+}
+//text применить
+.fe__buttonприменить {
+  position: absolute;
+  width: 84px;
+  height: 15px;
+  left: 229px;
+  top: 131px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #BC9CFF;
+}
+//text bullet list
+.fe__bulletlist {
+  position: absolute;
+  width: 79px;
+  height: 15px;
+  left: 979px;
+  top: 1196px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+//маркеры
+.fe__marker1 {
+  position: absolute;
+  width: 10.43px;
+  height: 10px;
+  left: 979px;
+  top: 1231px;
+  border-radius: 100%;
+  background: rgba(31, 32, 65, 0.25);
+}
+.fe__marker2 {
+  position: absolute;
+  width: 10.43px;
+  height: 10px;
+  left: 979px;
+  top: 1265px;
+  border-radius: 100%;
+  background: rgba(31, 32, 65, 0.25);
+}
+.fe__marker3 {
+  position: absolute;
+  width: 10.43px;
+  height: 10px;
+  left: 979px;
+  top: 1299px;
+  border-radius: 100%;
+  background: rgba(31, 32, 65, 0.25);
+}
+//text Нельзя с питомцами
+.fe__нельзяспитомцами {
+  position: absolute;
+  width: 242.56px;
+  height: 24px;
+  left: 999.86px;
+  top: 1227px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+//text Без вечеринок и мероприятий
+.fe__безвечеринок {
+  position: absolute;
+  width: 242.56px;
+  height: 24px;
+  left: 999.86px;
+  top: 1261px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+//text Время прибытия — после 13:00, а выезд до 12:00
+.fe__времяприбытия {
+  position: absolute;
+  width: 271.14px;
+  height: 48px;
+  left: 999.86px;
+  top: 1295px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
