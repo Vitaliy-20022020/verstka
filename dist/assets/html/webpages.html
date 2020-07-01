@@ -3,9 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<link href="../../assets/css/uikit.css?fddf5934c0487ae7a209" rel="stylesheet"></head>
+  <title>webpages</title>
+ <!--шрифты-->
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+ <!--календарь-->
+  <link href="../../assets/calendar/css/datepicker.min.css" rel="stylesheet" type="text/css">
+
+<link href="../../assets/css/uikit.css?8fd9810f82a8d432043f" rel="stylesheet"><link href="../../assets/css/webpages.css?8fd9810f82a8d432043f" rel="stylesheet"></head>
 <body>
-  <h1>hello</h1>
-<script type="text/javascript" src="../../assets/js/uikit.js?fddf5934c0487ae7a209"></script><script type="text/javascript" src="../../assets/js/webpages.js?fddf5934c0487ae7a209"></script></body>
+  <!--landing page-->
+<div class="landingpage">
+<!--headers-->
+<div class="landingpage__header">
+  <!--logo header-->
+ <img src="../../assets/img/logoblockhf.svg" alt="Logo" class="landingpage__logoheader">
+  <!--text toxin-->
+  <div class="landingpage__toxin"><img src="../../assets/img/TOXIN.svg" alt="toxin" class="landingpageheader__TOXIN"></div>
+  <!--text about us-->
+  <div class="landingpageheader__aboutus">О нас</div>
+  <!--text service-->
+  <div class="landingpageheader__services">Услуги</div>
+  <!--arrow down landing page-->
+  <div class="landingpageheader__arrowdownservices"><img src="../../assets/img/arrowdownhf.svg" alt="arrowdown" class="arrowdownservice"></div>
+  <!--text careers-->
+  <div class="landingpageheader__careers">Вакансии</div>
+  <!--text news-->
+  <div class="landingpageheader__news">Новости</div>
+  <!--text documentation-->
+  <div class="landingpageheader__documentation">Соглашения</div>
+  <div class="landingpageheader__arrowdowndocumentation"><img src="../../assets/img/arrowdownhf.svg" alt="arrowdown" class="arrowdowndocumentation"></div>
+  <!--button login-->
+  <div class="landingpageheader__btnlogin">
+    <div class="landingpageheader__login">Войти</div>
+  </div>
+  <!--button register-->
+  <div class="landingpageheader__register">
+    <div class="landingpageheader__textregister">Зарегистрироваться</div>
+  </div>
+  </div><!--end header-->
+<!--page landing room-->
+<div class="landingpage__background"><img src="../../assets/img/landingroom.svg" alt="room"></div>
+<!--поиск номера-->
+<div class="landingpage__search">
+  <div class="landingpage__heading">Найдём номера под<br>ваши пожелания</div>
+<!--text Прибытие-->
+  <div class="landingpage__labelarrival">прибытие</div>
+
+   <!--form date arrival-->
+<input type='text' class="landingpage__arrival datepicker-here" placeholder="ДД&#46;MM&#46;ГГГГ"/>
+
+<!--arrow down arrival-->
+<div class="landingpage__material-iconsarrival"><img src="../../assets/img/arrowdown.svg" alt="" class="arrowdownarrival" id="datepicker-herearrival"></div>
+
+<!--text Выезд-->
+<div class="landingpage__labelpdeparture">выезд</div>
+
+<!--form date departure-->
+<input type='text' class="landingpage__departure datepicker-here" placeholder="ДД&#46;MM&#46;ГГГГ"/>
+
+<!--arrow down departure-->
+<div class="landingpage__material-iconsdeparture"><img src="../../assets/img/arrowdown.svg" alt="" class="arrowdowndeparture" id="datepicker-heredeparture"></div>
+
+<!--text Гости-->
+<div class="landingpage__textguests">гости</div>
+<!--form guests-->
+<input type='text' class="landingpage__formguests" placeholder="Сколько гостей"/>
+<!--Выпадающий список кол-ва гостей-->
+<div class="landingpage__title"><ul>
+  <li class="list">1</li>
+  <li class="list">2</li>
+  <li class="list">3</li>
+  <li class="list">4</li>
+  <li class="list">5</li>
+  <li class="list">6</li>
+  <li class="list">7</li>
+  <li class="list">8</li>
+  <li class="list">9</li>
+  <li class="list">10</li>
+</ul></div>
+
+<!--arrow down guests-->
+<div class="landingpage__material-iconsguests"><img src="../../assets/img/arrowdown.svg" alt="" class="arrowdownguests"
+  id="guests"></div>
+
+<!--select number-->
+<div class="landingpage__selectnumber">
+ <div class="landingpage__textselectnumber">подобрать номер</div>
+<!--arrow forward select number-->
+<div class="landingpage__material-iconsselectnumber"><img src="../../assets/img/arrowforward.svg" alt="" class="arrowforward"></div>
+</div></div>
+<!--Лучшие номера для вашей работы, отдыха и просто вдохновения-->
+<div class="landingpage__bestroom">Лучшие номера для вашей работы&#44; отдыха и просто вдохновения</div>
+  <!--footer-->
+<div class="landingpage__footer">
+
+  <img src="../../assets/img/logoblockhf.svg" alt="Logo" class="landingpage__logofooter">
+  <!--text toxin footer 1-->
+  <img src="../../assets/img/TOXIN.svg" alt="toxin" class="landingpage__TOXINfooter">
+  <!--text under logo-->
+  <div class="landingpage__textunderlogo">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации &laquo;Отельные взгляды&raquo</div>
+  <!--навигация-->
+  <div class="landingpage__navigation">navigation</div>
+  <!--text О нас-->
+  <div class="landingpage__aboutusfooter">О нас</div>
+  <!--text новости-->
+  <div class="landingpage__newsfooter">Новости</div>
+  <!--text служба поддержки-->
+  <div class="landingpage__supportfooter">Служба поддержки</div>
+  <!--text услуги-->
+  <div class="landingpage__productsfooter">Услуги</div>
+  <!--text о нас-->
+  <div class="landingpage__aboutusboldfooter">о нас</div>
+  <!--text о сервисе-->
+  <div class="landingpage__whowearefooter">О сервисе</div>
+  <!--text наша команда-->
+  <div class="landingpage__ourteamfooter">Наша команда</div>
+  <!--text Вакансии-->
+  <div class="landingpage__careerscolumnaboutus">Вакансии</div>
+  <!--text Инвесторы-->
+  <div class="landingpage__investorsfooter">Инвесторы</div>
+  <!--text служба поддержки-->
+  <div class="landingpage__supportbold">служба поддержки</div>
+  <!-- text соглашения-->
+  <div class="landingpage__documentationfooter">Соглашения</div>
+  <!--text сообщества-->
+  <div class="landingpage__communityfooter">Сообщества</div>
+  <!--text связь с нами-->
+  <div class="landingpage__getintouchfooter">Связь с нами</div>
+  <!--text подписка-->
+  <div class="landingpage__subscribefooter">подписка</div>
+  <!--text Получайте специальные предложения и новости сервиса-->
+  <div class="landingpage__columnsubscribefooter">Получайте специальные предложения и новости сервиса</div>
+  <!--form email adress-->
+  <input type="email" class="landingpage__formmailfooter" placeholder="Email">
+  <!--img arrow forward-->
+  <div class="landingpage__arrowforwardfooter"><img src="../../assets/img/arrow_forward.png" class="arrowforwardfooter"></div>
+  </div><!--end block footer-->
+
+
+
+
+
+
+
+</div><!--end lending page-->
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="../../assets/js/uikit.js?8fd9810f82a8d432043f"></script><script type="text/javascript" src="../../assets/js/webpages.js?8fd9810f82a8d432043f"></script></body>
 </html>
