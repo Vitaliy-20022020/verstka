@@ -1,160 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>webpages</title>
- <!--шрифты-->
- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
- <!--календарь-->
-  <link href="../../assets/calendar/css/datepicker.min.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webpages</title>
+    <!--шрифты-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--календарь-->
+    <link
+      href="../../assets/calendar/css/datepicker.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!--landing page-->
+    <div class="landingpage">
+      <!--headers-->
+      <div class="landingpage__header">
+        <!--logo header-->
+        <img
+          src="../../assets/img/logoblockhf.svg"
+          alt="Logo"
+          class="landingpage__logoheader"
+        />
+        <!--text toxin-->
+        <div class="landingpage__toxin">
+          <img
+            src="../../assets/img/TOXIN.svg"
+            alt="toxin"
+            class="landingpageheader__TOXIN"
+          />
+        </div>
+        <!--text about us-->
+        <div class="landingpageheader__aboutus">О нас</div>
+        <!--text service-->
+        <div class="landingpageheader__services">Услуги</div>
+        <!--arrow down landing page-->
+        <div class="landingpageheader__arrowdownservices">
+          <img
+            src="../../assets/img/arrowdownhf.svg"
+            alt="arrowdown"
+            class="arrowdownservice"
+          />
+        </div>
+        <!--text careers-->
+        <div class="landingpageheader__careers">Вакансии</div>
+        <!--text news-->
+        <div class="landingpageheader__news">Новости</div>
+        <!--text documentation-->
+        <div class="landingpageheader__documentation">Соглашения</div>
+        <div class="landingpageheader__arrowdowndocumentation">
+          <img
+            src="../../assets/img/arrowdownhf.svg"
+            alt="arrowdown"
+            class="arrowdowndocumentation"
+          />
+        </div>
+        <!--button login-->
+        <div class="landingpageheader__btnlogin">
+          <div class="landingpageheader__login">Войти</div>
+        </div>
+        <!--button register-->
+        <div class="landingpageheader__register">
+          <div class="landingpageheader__textregister">Зарегистрироваться</div>
+        </div>
+      </div>
+      <!--end header-->
+      <!--page landing room-->
+      <div class="landingpage__background">
+        <img src="../../assets/img/landingroom.svg" alt="room" />
+      </div>
+      <!--поиск номера-->
+      <div class="landingpage__search">
+        <div class="landingpage__heading">
+          Найдём номера под<br />ваши пожелания
+        </div>
+        <!--text Прибытие-->
+        <div class="landingpage__labelarrival">прибытие</div>
 
-</head>
-<body>
-  <!--landing page-->
-<div class="landingpage">
-<!--headers-->
-<div class="landingpage__header">
-  <!--logo header-->
- <img src="../../assets/img/logoblockhf.svg" alt="Logo" class="landingpage__logoheader">
-  <!--text toxin-->
-  <div class="landingpage__toxin"><img src="../../assets/img/TOXIN.svg" alt="toxin" class="landingpageheader__TOXIN"></div>
-  <!--text about us-->
-  <div class="landingpageheader__aboutus">О нас</div>
-  <!--text service-->
-  <div class="landingpageheader__services">Услуги</div>
-  <!--arrow down landing page-->
-  <div class="landingpageheader__arrowdownservices"><img src="../../assets/img/arrowdownhf.svg" alt="arrowdown" class="arrowdownservice"></div>
-  <!--text careers-->
-  <div class="landingpageheader__careers">Вакансии</div>
-  <!--text news-->
-  <div class="landingpageheader__news">Новости</div>
-  <!--text documentation-->
-  <div class="landingpageheader__documentation">Соглашения</div>
-  <div class="landingpageheader__arrowdowndocumentation"><img src="../../assets/img/arrowdownhf.svg" alt="arrowdown" class="arrowdowndocumentation"></div>
-  <!--button login-->
-  <div class="landingpageheader__btnlogin">
-    <div class="landingpageheader__login">Войти</div>
-  </div>
-  <!--button register-->
-  <div class="landingpageheader__register">
-    <div class="landingpageheader__textregister">Зарегистрироваться</div>
-  </div>
-  </div><!--end header-->
-<!--page landing room-->
-<div class="landingpage__background"><img src="../../assets/img/landingroom.svg" alt="room"></div>
-<!--поиск номера-->
-<div class="landingpage__search">
-  <div class="landingpage__heading">Найдём номера под<br>ваши пожелания</div>
-<!--text Прибытие-->
-  <div class="landingpage__labelarrival">прибытие</div>
+        <!--form date arrival-->
+        <input
+          type="text"
+          class="landingpage__arrival datepicker-here"
+          placeholder="ДД&#46;MM&#46;ГГГГ"
+        />
 
-   <!--form date arrival-->
-<input type='text' class="landingpage__arrival datepicker-here" placeholder="ДД&#46;MM&#46;ГГГГ"/>
+        <!--arrow down arrival-->
+        <div class="landingpage__material-iconsarrival">
+          <img
+            src="../../assets/img/arrowdown.svg"
+            alt=""
+            class="arrowdownarrival"
+            id="datepicker-herearrival"
+          />
+        </div>
 
-<!--arrow down arrival-->
-<div class="landingpage__material-iconsarrival"><img src="../../assets/img/arrowdown.svg" alt="" class="arrowdownarrival" id="datepicker-herearrival"></div>
+        <!--text Выезд-->
+        <div class="landingpage__labelpdeparture">выезд</div>
 
-<!--text Выезд-->
-<div class="landingpage__labelpdeparture">выезд</div>
+        <!--form date departure-->
+        <input
+          type="text"
+          class="landingpage__departure datepicker-here"
+          placeholder="ДД&#46;MM&#46;ГГГГ"
+        />
 
-<!--form date departure-->
-<input type='text' class="landingpage__departure datepicker-here" placeholder="ДД&#46;MM&#46;ГГГГ"/>
+        <!--arrow down departure-->
+        <div class="landingpage__material-iconsdeparture">
+          <img
+            src="../../assets/img/arrowdown.svg"
+            alt=""
+            class="arrowdowndeparture"
+            id="datepicker-heredeparture"
+          />
+        </div>
 
-<!--arrow down departure-->
-<div class="landingpage__material-iconsdeparture"><img src="../../assets/img/arrowdown.svg" alt="" class="arrowdowndeparture" id="datepicker-heredeparture"></div>
+        <!--text Гости-->
+        <div class="landingpage__textguests">гости</div>
+        <!--form guests-->
+        <input
+          type="text"
+          class="landingpage__formguests"
+          placeholder="Сколько гостей"
+        />
+        <!--Выпадающий список кол-ва гостей-->
+        <div class="landingpage__title">
+          <ul>
+            <li class="list">1</li>
+            <li class="list">2</li>
+            <li class="list">3</li>
+            <li class="list">4</li>
+            <li class="list">5</li>
+            <li class="list">6</li>
+            <li class="list">7</li>
+            <li class="list">8</li>
+            <li class="list">9</li>
+            <li class="list">10</li>
+          </ul>
+        </div>
 
-<!--text Гости-->
-<div class="landingpage__textguests">гости</div>
-<!--form guests-->
-<input type='text' class="landingpage__formguests" placeholder="Сколько гостей"/>
-<!--Выпадающий список кол-ва гостей-->
-<div class="landingpage__title"><ul>
-  <li class="list">1</li>
-  <li class="list">2</li>
-  <li class="list">3</li>
-  <li class="list">4</li>
-  <li class="list">5</li>
-  <li class="list">6</li>
-  <li class="list">7</li>
-  <li class="list">8</li>
-  <li class="list">9</li>
-  <li class="list">10</li>
-</ul></div>
+        <!--arrow down guests-->
+        <div class="landingpage__material-iconsguests">
+          <img
+            src="../../assets/img/arrowdown.svg"
+            alt=""
+            class="arrowdownguests"
+            id="guests"
+          />
+        </div>
 
-<!--arrow down guests-->
-<div class="landingpage__material-iconsguests"><img src="../../assets/img/arrowdown.svg" alt="" class="arrowdownguests"
-  id="guests"></div>
+        <!--select number-->
+        <div class="landingpage__selectnumber">
+          <div class="landingpage__textselectnumber">подобрать номер</div>
+          <!--arrow forward select number-->
+          <div class="landingpage__material-iconsselectnumber">
+            <img
+              src="../../assets/img/arrowforward.svg"
+              alt=""
+              class="arrowforward"
+            />
+          </div>
+        </div>
+      </div>
+      <!--Лучшие номера для вашей работы, отдыха и просто вдохновения-->
+      <div class="landingpage__bestroom">
+        Лучшие номера для вашей работы&#44; отдыха и просто вдохновения
+      </div>
+      <!--footer-->
+      <div class="landingpage__footer">
+        <img
+          src="../../assets/img/logoblockhf.svg"
+          alt="Logo"
+          class="landingpage__logofooter"
+        />
+        <!--text toxin footer 1-->
+        <img
+          src="../../assets/img/TOXIN.svg"
+          alt="toxin"
+          class="landingpage__TOXINfooter"
+        />
+        <!--text under logo-->
+        <div class="landingpage__textunderlogo">
+          Бронирование номеров в лучшем отеле 2019 года по версии ассоциации
+          &laquo;Отельные взгляды&raquo
+        </div>
+        <!--навигация-->
+        <div class="landingpage__navigation">навигация</div>
+        <!--text О нас-->
+        <div class="landingpage__aboutusfooter">О нас</div>
+        <!--text новости-->
+        <div class="landingpage__newsfooter">Новости</div>
+        <!--text служба поддержки-->
+        <div class="landingpage__supportfooter">Служба поддержки</div>
+        <!--text услуги-->
+        <div class="landingpage__productsfooter">Услуги</div>
+        <!--text о нас-->
+        <div class="landingpage__aboutusboldfooter">о нас</div>
+        <!--text о сервисе-->
+        <div class="landingpage__whowearefooter">О сервисе</div>
+        <!--text наша команда-->
+        <div class="landingpage__ourteamfooter">Наша команда</div>
+        <!--text Вакансии-->
+        <div class="landingpage__careerscolumnaboutus">Вакансии</div>
+        <!--text Инвесторы-->
+        <div class="landingpage__investorsfooter">Инвесторы</div>
+        <!--text служба поддержки-->
+        <div class="landingpage__supportbold">служба поддержки</div>
+        <!-- text соглашения-->
+        <div class="landingpage__documentationfooter">Соглашения</div>
+        <!--text сообщества-->
+        <div class="landingpage__communityfooter">Сообщества</div>
+        <!--text связь с нами-->
+        <div class="landingpage__getintouchfooter">Связь с нами</div>
+        <!--text подписка-->
+        <div class="landingpage__subscribefooter">подписка</div>
+        <!--text Получайте специальные предложения и новости сервиса-->
+        <div class="landingpage__columnsubscribefooter">
+          Получайте специальные предложения и новости сервиса
+        </div>
+        <!--form email adress-->
+        <input
+          type="email"
+          class="landingpage__formmailfooter"
+          placeholder="Email"
+        />
+        <!--img arrow forward-->
+        <div class="landingpage__arrowforwardfooter">
+          <img
+            src="../../assets/img/arrow_forward.png"
+            class="arrowforwardfooter"
+          />
+        </div>
+      </div>
+      <!--end block footer-->
+      <!--footer2-->
+      <div class="landingpage__footer2">
+        <!--text Copyright © 2018 Toxin Отель. All rights reserved-->
+        <div class="landingpage__copyrightfooter">
+          Copyright &copy; 2018 Toxin отель&#46; Все права зачищены&#46;
+        </div>
+        <!--twitter-->
+        <div class="landingpage__twitterfooter">
+          <img src="../../assets/img/twitter.svg" />
+        </div>
+        <!--facebook-->
+        <div class="landingpage__facebookfooter">
+          <img src="../../assets/img/facebook.svg" />
+        </div>
+        <!--instagram-->
+        <div class="landingpage__instagramfooter">
+          <img src="../../assets/img/instagram.svg" />
+        </div>
+      </div>
+      <!--end block footer 2-->
+    </div>
+    <!--end lending page-->
 
-<!--select number-->
-<div class="landingpage__selectnumber">
- <div class="landingpage__textselectnumber">подобрать номер</div>
-<!--arrow forward select number-->
-<div class="landingpage__material-iconsselectnumber"><img src="../../assets/img/arrowforward.svg" alt="" class="arrowforward"></div>
-</div></div>
-<!--Лучшие номера для вашей работы, отдыха и просто вдохновения-->
-<div class="landingpage__bestroom">Лучшие номера для вашей работы&#44; отдыха и просто вдохновения</div>
-  <!--footer-->
-<div class="landingpage__footer">
+    <!--landing page dates dropdown-->
+    <div class="landingpagedatesdropdown">
+      <!--headers-->
+      <div class="landingpagedatesdropdown__header">
+        <!--logo header-->
+        <img
+          src="../../assets/img/logoblockhf.svg"
+          alt="Logo"
+          class="landingpagedatesdropdown__logoheader"
+        />
+        <!--text toxin-->
+        <div class="landingpagedatesdropdown__toxin">
+          <img
+            src="../../assets/img/TOXIN.svg"
+            alt="toxin"
+            class="landingpageheaderdatesdropdown__TOXIN"
+          />
+        </div>
+        <!--text about us-->
+        <div class="landingpageheaderdatesdropdown__aboutus">О нас</div>
+        <!--text service-->
+        <div class="landingpageheaderdatesdropdown__services">Услуги</div>
+        <!--arrow down landing page-->
+        <div class="landingpageheaderdatesdropdown__arrowdownservices">
+          <img
+            src="../../assets/img/arrowdownhf.svg"
+            alt="arrowdown"
+            class="arrowdownservice"
+          />
+        </div>
+        <!--text careers-->
+        <div class="landingpageheaderdatesdropdown__careers">Вакансии</div>
+        <!--text news-->
+        <div class="landingpageheaderdatesdropdown__news">Новости</div>
+        <!--text documentation-->
+        <div class="landingpageheaderdatesdropdown__documentation">
+          Соглашения
+        </div>
+        <div class="landingpageheaderdatesdropdown__arrowdowndocumentation">
+          <img
+            src="../../assets/img/arrowdownhf.svg"
+            alt="arrowdown"
+            class="arrowdowndocumentation"
+          />
+        </div>
+        <!--button login-->
+        <div class="landingpageheaderdatesdropdown__btnlogin">
+          <div class="landingpageheaderdatesdropdown__login">Войти</div>
+        </div>
+        <!--button register-->
+        <div class="landingpageheaderdatesdropdown__register">
+          <div class="landingpageheaderdatesdropdown__textregister">
+            Зарегистрироваться
+          </div>
+        </div>
+      </div>
+      <!--end header-->
+      <!--page landing room-->
+      <div class="landingpagedatesdropdown__background">
+        <img src="../../assets/img/landingroom.svg" alt="room" />
+      </div>
+      <!--поиск номера-->
+      <div class="landingpagedatesdropdown__search">
+        <div class="landingpagedatesdropdown__heading">
+          Найдём номера под<br />ваши пожелания
+        </div>
+        <!--text Прибытие-->
+        <div class="landingpagedatesdropdown__labelarrival">прибытие</div>
 
-  <img src="../../assets/img/logoblockhf.svg" alt="Logo" class="landingpage__logofooter">
-  <!--text toxin footer 1-->
-  <img src="../../assets/img/TOXIN.svg" alt="toxin" class="landingpage__TOXINfooter">
-  <!--text under logo-->
-  <div class="landingpage__textunderlogo">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации &laquo;Отельные взгляды&raquo</div>
-  <!--навигация-->
-  <div class="landingpage__navigation">navigation</div>
-  <!--text О нас-->
-  <div class="landingpage__aboutusfooter">О нас</div>
-  <!--text новости-->
-  <div class="landingpage__newsfooter">Новости</div>
-  <!--text служба поддержки-->
-  <div class="landingpage__supportfooter">Служба поддержки</div>
-  <!--text услуги-->
-  <div class="landingpage__productsfooter">Услуги</div>
-  <!--text о нас-->
-  <div class="landingpage__aboutusboldfooter">о нас</div>
-  <!--text о сервисе-->
-  <div class="landingpage__whowearefooter">О сервисе</div>
-  <!--text наша команда-->
-  <div class="landingpage__ourteamfooter">Наша команда</div>
-  <!--text Вакансии-->
-  <div class="landingpage__careerscolumnaboutus">Вакансии</div>
-  <!--text Инвесторы-->
-  <div class="landingpage__investorsfooter">Инвесторы</div>
-  <!--text служба поддержки-->
-  <div class="landingpage__supportbold">служба поддержки</div>
-  <!-- text соглашения-->
-  <div class="landingpage__documentationfooter">Соглашения</div>
-  <!--text сообщества-->
-  <div class="landingpage__communityfooter">Сообщества</div>
-  <!--text связь с нами-->
-  <div class="landingpage__getintouchfooter">Связь с нами</div>
-  <!--text подписка-->
-  <div class="landingpage__subscribefooter">подписка</div>
-  <!--text Получайте специальные предложения и новости сервиса-->
-  <div class="landingpage__columnsubscribefooter">Получайте специальные предложения и новости сервиса</div>
-  <!--form email adress-->
-  <input type="email" class="landingpage__formmailfooter" placeholder="Email">
-  <!--img arrow forward-->
-  <div class="landingpage__arrowforwardfooter"><img src="../../assets/img/arrow_forward.png" class="arrowforwardfooter"></div>
-  </div><!--end block footer-->
+        <!--form date arrival-->
+        <input
+          type="text"
+          class="landingpagedatesdropdown__arrival datepicker-here"
+          placeholder="19&#46;08&#46;2019"
+        />
 
+        <!--arrow down arrival-->
+        <div class="landingpagedatesdropdown__material-iconsarrival">
+          <img
+            src="../../assets/img/arrowdown.svg"
+            alt=""
+            class="arrowdownarrival"
+            id="datepicker-herearrival"
+          />
+        </div>
 
+        <!--text Выезд-->
+        <div class="landingpagedatesdropdown__labelpdeparture">выезд</div>
 
+        <!--form date departure-->
+        <input
+          type="text"
+          class="landingpagedatesdropdown__departure datepicker-here"
+          placeholder="23&#46;08&#46;2019"
+        />
 
+        <!--arrow down departure-->
+        <div class="landingpagedatesdropdown__material-iconsdeparture">
+          <img
+            src="../../assets/img/arrowdown.svg"
+            alt=""
+            class="arrowdowndeparture"
+            id="datepicker-heredeparture"
+          />
+        </div>
+        <div class="landingpagedatesdropdown__calendar">
+          <div class="landingpagedatesdropdown__arrow_back">
+            <img src="../../assets/img/arrow_back.png" alt="" />
+          </div>
+          <!--calendar-->
+          <!--Август 2019-->
+          <div class="landingpagedatesdropdown__august2019">
+            Август <span>2019</span>
+          </div>
+          <!--arrow forward-->
+          <div class="landingpagedatesdropdown__arrow_forward">
+            <img src="../../assets/img/arrow_forward.png" alt="" />
+          </div>
+          <!--calendar days week-->
+          <div class="landingpagedatesdropdown__monday">Пн</div>
+          <div class="landingpagedatesdropdown__tuesday">Вт</div>
+          <div class="landingpagedatesdropdown__wednesday">Ср</div>
+          <div class="landingpagedatesdropdown__thursday">Чт</div>
+          <div class="landingpagedatesdropdown__friday">Пт</div>
+          <div class="landingpagedatesdropdown__saturday">Сб</div>
+          <div class="landingpagedatesdropdown__sunday">Вс</div>
+          <!--calendar days-->
+          <div class="landingpagedatesdropdown__29jule">29</div>
+          <div class="landingpagedatesdropdown__30jule">30</div>
+          <div class="landingpagedatesdropdown__31jule">31</div>
+          <div class="landingpagedatesdropdown__1">1</div>
+          <div class="landingpagedatesdropdown__2">2</div>
+          <div class="landingpagedatesdropdown__3">3</div>
+          <div class="landingpagedatesdropdown__4">4</div>
+          <div class="landingpagedatesdropdown__5">5</div>
+          <div class="landingpagedatesdropdown__6">6</div>
+          <div class="landingpagedatesdropdown__7">7</div>
+          <div class="landingpagedatesdropdown__8">8</div>
+          <div class="landingpagedatesdropdown__9">9</div>
+          <div class="landingpagedatesdropdown__10">10</div>
+          <div class="landingpagedatesdropdown__11">11</div>
+          <div class="landingpagedatesdropdown__12">12</div>
+          <div class="landingpagedatesdropdown__13">13</div>
+          <div class="landingpagedatesdropdown__14">14</div>
+          <div class="landingpagedatesdropdown__15">15</div>
+          <div class="landingpagedatesdropdown__16">16</div>
+          <div class="landingpagedatesdropdown__17">17</div>
+          <div class="landingpagedatesdropdown__18">18</div>
+          <div class="landingpagedatesdropdown__19">19</div>
+          <div class="landingpagedatesdropdown__20">20</div>
+          <div class="landingpagedatesdropdown__21">21</div>
+          <div class="landingpagedatesdropdown__22">22</div>
+          <div class="landingpagedatesdropdown__23">23</div>
+          <div class="landingpagedatesdropdown__24">24</div>
+          <div class="landingpagedatesdropdown__25">25</div>
+          <div class="landingpagedatesdropdown__26">26</div>
+          <div class="landingpagedatesdropdown__27">27</div>
+          <div class="landingpagedatesdropdown__28">28</div>
+          <div class="landingpagedatesdropdown__29">29</div>
+          <div class="landingpagedatesdropdown__30">30</div>
+          <div class="landingpagedatesdropdown__31">31</div>
+          <div class="landingpagedatesdropdown__1september">1</div>
+          <!--заливка дней недели 19,20,21,22,23-->
+          <div class="landingpagedatesdropdown__backgrounddays19-23"></div>
+          <!--text Очистить-->
+          <div class="landingpagedatesdropdown__clearcalendar">очистить</div>
+          <!--text применить-->
+          <div class="landingpagedatesdropdown__applycalendar">применить</div>
+        </div>
+        <!--end calendar-->
 
+        <!--text Гости-->
+        <div class="landingpagedatesdropdown__textguests">гости</div>
+        <!--form guests-->
+        <input
+          type="text"
+          class="landingpagedatesdropdown__formguests"
+          placeholder="Сколько гостей"
+        />
+        <!--Выпадающий список кол-ва гостей-->
+        <div class="landingpagedatesdropdown__title">
+          <ul>
+            <li class="list">1</li>
+            <li class="list">2</li>
+            <li class="list">3</li>
+            <li class="list">4</li>
+            <li class="list">5</li>
+            <li class="list">6</li>
+            <li class="list">7</li>
+            <li class="list">8</li>
+            <li class="list">9</li>
+            <li class="list">10</li>
+          </ul>
+        </div>
 
+        <!--arrow down guests-->
+        <div class="landingpagedatesdropdown__material-iconsguests">
+          <img
+            src="../../assets/img/arrowdown.svg"
+            alt=""
+            class="arrowdownguests"
+            id="guests"
+          />
+        </div>
 
-</div><!--end lending page-->
-
-
-
-
-
-
-
-
-
-</body>
+        <!--select number-->
+        <div class="landingpagedatesdropdown__selectnumber">
+          <div class="landingpagedatesdropdown__textselectnumber">
+            подобрать номер
+          </div>
+          <!--arrow forward select number-->
+          <div class="landingpagedatesdropdown__material-iconsselectnumber">
+            <img
+              src="../../assets/img/arrowforward.svg"
+              alt=""
+              class="arrowforward"
+            />
+          </div>
+        </div>
+      </div>
+      <!--Лучшие номера для вашей работы, отдыха и просто вдохновения-->
+      <div class="landingpagedatesdropdown__bestroom">
+        Лучшие номера для вашей работы&#44; отдыха и просто вдохновения
+      </div>
+      <!--footer-->
+      <div class="landingpagedatesdropdown__footer">
+        <img
+          src="../../assets/img/logoblockhf.svg"
+          alt="Logo"
+          class="landingpagedatesdropdown__logofooter"
+        />
+        <!--text toxin footer 1-->
+        <img
+          src="../../assets/img/TOXIN.svg"
+          alt="toxin"
+          class="landingpagedatesdropdown__TOXINfooter"
+        />
+        <!--text under logo-->
+        <div class="landingpagedatesdropdown__textunderlogo">
+          Бронирование номеров в лучшем отеле 2019 года по версии ассоциации
+          &laquo;Отельные взгляды&raquo
+        </div>
+        <!--навигация-->
+        <div class="landingpagedatesdropdown__navigation">навигация</div>
+        <!--text О нас-->
+        <div class="landingpagedatesdropdown__aboutusfooter">О нас</div>
+        <!--text новости-->
+        <div class="landingpagedatesdropdown__newsfooter">Новости</div>
+        <!--text служба поддержки-->
+        <div class="landingpagedatesdropdown__supportfooter">
+          Служба поддержки
+        </div>
+        <!--text услуги-->
+        <div class="landingpagedatesdropdown__productsfooter">Услуги</div>
+        <!--text о нас-->
+        <div class="landingpagedatesdropdown__aboutusboldfooter">о нас</div>
+        <!--text о сервисе-->
+        <div class="landingpagedatesdropdown__whowearefooter">О сервисе</div>
+        <!--text наша команда-->
+        <div class="landingpagedatesdropdown__ourteamfooter">Наша команда</div>
+        <!--text Вакансии-->
+        <div class="landingpagedatesdropdown__careerscolumnaboutus">
+          Вакансии
+        </div>
+        <!--text Инвесторы-->
+        <div class="landingpagedatesdropdown__investorsfooter">Инвесторы</div>
+        <!--text служба поддержки-->
+        <div class="landingpagedatesdropdown__supportbold">
+          служба поддержки
+        </div>
+        <!-- text соглашения-->
+        <div class="landingpagedatesdropdown__documentationfooter">
+          Соглашения
+        </div>
+        <!--text сообщества-->
+        <div class="landingpagedatesdropdown__communityfooter">Сообщества</div>
+        <!--text связь с нами-->
+        <div class="landingpagedatesdropdown__getintouchfooter">
+          Связь с нами
+        </div>
+        <!--text подписка-->
+        <div class="landingpagedatesdropdown__subscribefooter">подписка</div>
+        <!--text Получайте специальные предложения и новости сервиса-->
+        <div class="landingpagedatesdropdown__columnsubscribefooter">
+          Получайте специальные предложения и новости сервиса
+        </div>
+        <!--form email adress-->
+        <input
+          type="email"
+          class="landingpagedatesdropdown__formmailfooter"
+          placeholder="Email"
+        />
+        <!--img arrow forward-->
+        <div class="landingpagedatesdropdown__arrowforwardfooter">
+          <img
+            src="../../assets/img/arrow_forward.png"
+            class="arrowforwardfooter"
+          />
+        </div>
+      </div>
+      <!--end block footer-->
+      <!--footer2-->
+      <div class="landingpagedatesdropdown__footer2">
+        <!--text Copyright © 2018 Toxin Отель. All rights reserved-->
+        <div class="landingpagedatesdropdown__copyrightfooter">
+          Copyright &copy; 2018 Toxin отель&#46; Все права зачищены&#46;
+        </div>
+        <!--twitter-->
+        <div class="landingpagedatesdropdown__twitterfooter">
+          <img src="../../assets/img/twitter.svg" />
+        </div>
+        <!--facebook-->
+        <div class="landingpagedatesdropdown__facebookfooter">
+          <img src="../../assets/img/facebook.svg" />
+        </div>
+        <!--instagram-->
+        <div class="landingpagedatesdropdown__instagramfooter">
+          <img src="../../assets/img/instagram.svg" />
+        </div>
+      </div>
+      <!--end block footer 2-->
+    </div>
+    <!--end block landing page dates dropdown-->
+  </body>
 </html>

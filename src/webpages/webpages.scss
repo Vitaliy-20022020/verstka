@@ -1,7 +1,44 @@
+@mixin calendar_daysweek($left) {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: $left;
+  top: 7.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #bc9cff;
+  display: inline-block;
+  line-height: 4rem;
+}
+@mixin calendar_days($left, $top) {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: $left;
+  top: $top;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  line-height: 4rem;
+}
 
-html, body {
+html,
+body {
   font-size: 10px;
-  background: #E5E5E5;
+  background: #e5e5e5;
   margin: 0px;
   padding: 0px;
 }
@@ -9,164 +46,164 @@ html, body {
 .landingpage {
   position: relative;
   width: 90rem;
-  height: 83,94rem;
+  height: 83, 94rem;
 }
 //landing page header
 .landingpage__header {
   position: absolute;
-width: 144rem;
-height: 7rem;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-  }
-  //logo header
-.landingpage__logoheader {
-    position: absolute;
-    width: 4rem;
-    height: 4rem;
-    left: 14rem;
-    top: 1.5rem;
-    }
-  // text TOXIN
-.landingpage__toxin {
-position: absolute;
-width: 5.319rem;
-height: 1.295rem;
-left: 19.25rem;
-top: 2.833rem;
-.landingpageheader__TOXIN {
-margin: 0 auto;
+  width: 144rem;
+  height: 7rem;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
+//logo header
+.landingpage__logoheader {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: 14rem;
+  top: 1.5rem;
+}
+// text TOXIN
+.landingpage__toxin {
+  position: absolute;
+  width: 5.319rem;
+  height: 1.295rem;
+  left: 19.25rem;
+  top: 2.833rem;
+  .landingpageheader__TOXIN {
+    margin: 0 auto;
   }
-  //text about us
+}
+//text about us
 .landingpageheader__aboutus {
-    position: absolute;
-    width: 4.2rem;
-    height: 1.8rem;
-    left: 53.1rem;
-    top: 2.6rem;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    color: rgba(31, 32, 65, 0.5);
+  position: absolute;
+  width: 4.2rem;
+  height: 1.8rem;
+  left: 53.1rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
   cursor: pointer;
-  }
-  //text services
+}
+//text services
 .landingpageheader__services {
-    position: absolute;
-    width: 5rem;
-    height: 1.8rem;
-    left: 59.3rem;
-    top: 2.6rem;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    color: rgba(31, 32, 65, 0.5);
+  position: absolute;
+  width: 5rem;
+  height: 1.8rem;
+  left: 59.3rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
   cursor: pointer;
-  }
-  //arrow down hf
+}
+//arrow down hf
 .landingpageheader__arrowdownservices {
-    position: absolute;
-    width: 2.4rem;
-    height: 2.1rem;
-    left: 64.3rem;
-    top: 2.5rem;
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.4rem;
-    line-height: 2rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: rgba(31, 32, 65, 0.5);
+  position: absolute;
+  width: 2.4rem;
+  height: 2.1rem;
+  left: 64.3rem;
+  top: 2.5rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
   cursor: pointer;
-.arrowdownservice {
-  margin: 0 auto;
+  .arrowdownservice {
+    margin: 0 auto;
   }
-  }
-  //text carrers
+}
+//text carrers
 .landingpageheader__careers {
-    position: absolute;
-    width: 7.2rem;
-    height: 1.8rem;
-    left: 68.7rem;
-    top: 2.6rem;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    color: rgba(31, 32, 65, 0.5);
+  position: absolute;
+  width: 7.2rem;
+  height: 1.8rem;
+  left: 68.7rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
   cursor: pointer;
-  }
-  //text news
+}
+//text news
 .landingpageheader__news {
-    position: absolute;
-    width: 6.2rem;
-    height: 1.8rem;
-    left: 77.9rem;
-    top: 2.6rem;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    color: rgba(31, 32, 65, 0.5);
+  position: absolute;
+  width: 6.2rem;
+  height: 1.8rem;
+  left: 77.9rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
   cursor: pointer;
-  }
-  //text documentation
+}
+//text documentation
 .landingpageheader__documentation {
-    position: absolute;
-    width: 9.2rem;
-    height: 1.8rem;
-    left: 86.1rem;
-    top: 2.6rem;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    color: rgba(31, 32, 65, 0.5);
-  cursor: pointer
-  }
-  .landingpageheader__arrowdowndocumentation {
-    position: absolute;
-    width: 2.4rem;
-    height: 2.1rem;
-    left: 95.3rem;
-    top: 2.4rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.4rem;
-    line-height: 2rem;
-    color: rgba(31, 32, 65, 0.5);
+  position: absolute;
+  width: 9.2rem;
+  height: 1.8rem;
+  left: 86.1rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
   cursor: pointer;
-.arrowdowndocumentation {
-  margin: 0 auto;
+}
+.landingpageheader__arrowdowndocumentation {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.1rem;
+  left: 95.3rem;
+  top: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  .arrowdowndocumentation {
+    margin: 0 auto;
   }
-  }
-  //button login
+}
+//button login
 .landingpageheader__btnlogin {
-    position: absolute;
-    width: 8.7rem;
-    height: 3.4rem;
-    left: 99.7rem;
-    top: 1.8rem;
-    border-radius: 2.2rem;
-    border: 0.2rem solid #BC9CFF;;
-    cursor: pointer;
-.landingpageheader__login {
+  position: absolute;
+  width: 8.7rem;
+  height: 3.4rem;
+  left: 99.7rem;
+  top: 1.8rem;
+  border-radius: 2.2rem;
+  border: 0.2rem solid #bc9cff;
+  cursor: pointer;
+  .landingpageheader__login {
     position: absolute;
     width: 4.7rem;
     height: 1.5rem;
@@ -178,20 +215,20 @@ margin: 0 auto;
     font-size: 1.2rem;
     line-height: 1.5rem;
     text-transform: uppercase;
-    color: #BC9CFF;
+    color: #bc9cff;
   }
-  }
-  //button register
+}
+//button register
 .landingpageheader__register {
-    position: absolute;
-    width: 19.6rem;
-    height: 3.4rem;
-    left: 110.4rem;
-    top: 1.8rem;
-    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-    border-radius: 2.2rem;
+  position: absolute;
+  width: 19.6rem;
+  height: 3.4rem;
+  left: 110.4rem;
+  top: 1.8rem;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 2.2rem;
   cursor: pointer;
-.landingpageheader__textregister {
+  .landingpageheader__textregister {
     position: absolute;
     width: 15.7rem;
     height: 1.5rem;
@@ -203,17 +240,17 @@ margin: 0 auto;
     font-size: 1.2rem;
     line-height: 1.5rem;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-  }
-  //page landing room
-  .landingpage__background {
-    position: absolute;
-width: 160rem;
-height: 90rem;
-//left: 144rem;
-top: 7rem;
-  }
+}
+//page landing room
+.landingpage__background {
+  position: absolute;
+  width: 160rem;
+  height: 90rem;
+  //left: 144rem;
+  top: 7rem;
+}
 //поиск номера
 .landingpage__search {
   position: absolute;
@@ -221,28 +258,28 @@ top: 7rem;
   height: 37.4rem;
   left: 14rem;
   top: 21rem;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 0.1rem solid rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   box-shadow: 0px 0px 2.5rem rgba(0, 0, 0, 0.2);
   border-radius: 0.4rem;
 }
- 
+
 //hearding
 .landingpage__heading {
   position: absolute;
-width: 32rem;
-height: 6rem;
-left: 3.1rem;
-top: 4rem;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 2.3rem;
-line-height: 3rem;
-color: #1F2041;
-margin: 0 auto;
-word-spacing: 0.15rem;
+  width: 32rem;
+  height: 6rem;
+  left: 3.1rem;
+  top: 4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 3rem;
+  color: #1f2041;
+  margin: 0 auto;
+  word-spacing: 0.15rem;
 }
 //прибытие
 .landingpage__labelarrival {
@@ -257,8 +294,8 @@ word-spacing: 0.15rem;
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  color: #1F2041;
-  }
+  color: #1f2041;
+}
 //form date arrival
 .landingpage__arrival {
   position: absolute;
@@ -266,17 +303,17 @@ word-spacing: 0.15rem;
   height: 4.4rem;
   left: 3rem;
   top: 14.044rem;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 0.1rem solid rgba(31, 32, 65, 0.25);
   box-sizing: border-box;
   border-radius: 0.4rem;
   font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 1.4rem;
-line-height: 1.8rem;
-padding-left: 1.4rem;
-padding-bottom: 0.6rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-left: 1.4rem;
+  padding-bottom: 0.6rem;
 }
 
 //icons arrow down arrival
@@ -295,45 +332,47 @@ padding-bottom: 0.6rem;
   align-items: center;
   text-align: center;
   color: rgba(31, 32, 65, 0.5);
-.arrowdownarrival {
-  cursor: pointer;
-  margin: 0 auto;
-}
+  .arrowdownarrival {
+    cursor: pointer;
+    margin: 0 auto;
+  }
 }
 
 //Выезд
-.landingpage__labelpdeparture
-{position: absolute;
-width: 8.3rem;
-height: 1.5rem;
-left: 19.9rem;
-top: 12rem;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 1.2rem;
-line-height: 1.5rem;
-text-transform: uppercase;
-color: #1F2041;}
+.landingpage__labelpdeparture {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 19.9rem;
+  top: 12rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
 
 //form date departure
 .landingpage__departure {
-position: absolute;
-width: 15rem;
-height: 4.4rem;
-left: 20rem;
-top: 14.044rem;
-background: #FFFFFF;
-border: 0.1rem solid rgba(31, 32, 65, 0.25);
-box-sizing: border-box;
-border-radius: 0.4rem;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 1.4rem;
-line-height: 1.8rem;
-padding-left: 1.4rem;
-padding-bottom: 0.6rem;}
+  position: absolute;
+  width: 15rem;
+  height: 4.4rem;
+  left: 20rem;
+  top: 14.044rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-left: 1.4rem;
+  padding-bottom: 0.6rem;
+}
 
 //icons arrow down departure
 .landingpage__material-iconsdeparture {
@@ -351,25 +390,27 @@ padding-bottom: 0.6rem;}
   align-items: center;
   text-align: center;
   color: rgba(31, 32, 65, 0.5);
-.arrowdowndeparture {
-  cursor: pointer;
-  margin: 0 auto;}
+  .arrowdowndeparture {
+    cursor: pointer;
+    margin: 0 auto;
+  }
 }
 
 //text Гости
 .landingpage__textguests {
-position: absolute;
-width: 4.3rem;
-height: 1.5rem;
-left: 2.8rem;
-top: 20.5rem;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 1.2rem;
-line-height: 1.5rem;
-text-transform: uppercase;
-color: #1F2041;}
+  position: absolute;
+  width: 4.3rem;
+  height: 1.5rem;
+  left: 2.8rem;
+  top: 20.5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
 
 // form guests
 .landingpage__formguests {
@@ -378,7 +419,7 @@ color: #1F2041;}
   height: 4.4rem;
   left: 3rem;
   top: 22.5rem;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 0.1rem solid rgba(31, 32, 65, 0.25);
   box-sizing: border-box;
   border-radius: 0.4rem;
@@ -405,9 +446,10 @@ color: #1F2041;}
   align-items: center;
   text-align: center;
   color: rgba(31, 32, 65, 0.5);
-.arrowdownguests {
-  cursor: pointer;
-  margin: 0 auto;}
+  .arrowdownguests {
+    cursor: pointer;
+    margin: 0 auto;
+  }
 }
 //form select number
 .landingpage__selectnumber {
@@ -416,7 +458,7 @@ color: #1F2041;}
   height: 4.4rem;
   left: 3rem;
   top: 30rem;
-  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
   border-radius: 2.2rem;
 }
 //text выбор номера
@@ -433,53 +475,60 @@ color: #1F2041;}
   line-height: 1.5rem;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;}
+  color: #ffffff;
+}
 
-  //arrow forward select number
-.landingpage__material-iconsselectnumber{
-position: absolute;
-width: 4.4rem;
-height: 4.4rem;
-left: 27.6rem;
-//top: 300px;
-font-family: Material Icons;
-font-style: normal;
-font-weight: normal;
-font-size: 2.4rem;
-line-height: 2.4rem;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-.arrowforward {
-  cursor: pointer;
-  margin: 0 auto;}
+//arrow forward select number
+.landingpage__material-iconsselectnumber {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 27.6rem;
+  //top: 300px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  .arrowforward {
+    cursor: pointer;
+    margin: 0 auto;
+  }
 }
 //Выпадающий список кол-ва гостей
 .landingpage__title {
-width: 3.5rem;
-height: 9.7rem;
-position: absolute;
-left: 31.174rem;
-top: 26.856rem;
-z-index: 3;
-overflow-x: hidden;
-overflow-y: scroll;
-background: #FFFFFF;
-border: 0.1rem solid rgba(31, 32, 65, 0.25);
-border-radius: 0.4rem;
-display: none;
-a {color: black;
-text-decoration: none;}
-ul {padding: 0.5rem;
-  margin: 0;
-list-style-type: none;
-}
-li {cursor: pointer;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.6rem;}
+  width: 3.5rem;
+  height: 9.7rem;
+  position: absolute;
+  left: 31.174rem;
+  top: 26.856rem;
+  z-index: 3;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  border-radius: 0.4rem;
+  display: none;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  ul {
+    padding: 0.5rem;
+    margin: 0;
+    list-style-type: none;
+  }
+  li {
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+  }
 }
 //Лучшие номера для вашей работы, отдыха и просто вдохновения
 .landingpage__bestroom {
@@ -494,16 +543,18 @@ li {cursor: pointer;
   font-size: 1.4rem;
   line-height: 2.4rem;
   text-align: right;
-  color: rgba(31, 32, 65, 0.75)}
+  color: rgba(31, 32, 65, 0.75);
+}
 //footer
-.landingpage__footer{
+.landingpage__footer {
   position: absolute;
   width: 144rem;
   height: 37.2rem;
   left: 0rem;
   top: 90rem;
-  background: #FFFFFF;
-  box-shadow: 0rem 0.1rem 0rem rgba(31, 32, 65, 0.1);}
+  background: #ffffff;
+  box-shadow: 0rem 0.1rem 0rem rgba(31, 32, 65, 0.1);
+}
 //logo
 .landingpage__logofooter {
   position: absolute;
@@ -511,7 +562,7 @@ li {cursor: pointer;
   height: 4rem;
   left: 14rem;
   top: 10rem;
-  }
+}
 //toxin
 .landingpage__TOXINfooter {
   position: absolute;
@@ -519,7 +570,7 @@ li {cursor: pointer;
   height: 1.295rem;
   left: 19.25rem;
   top: 11.33rem;
-  background: #1F2041;
+  background: #1f2041;
 }
 //text under logo
 .landingpage__textunderlogo {
@@ -533,7 +584,7 @@ li {cursor: pointer;
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 2.4rem;
-  color: rgba(31, 32, 65, 0.75)
+  color: rgba(31, 32, 65, 0.75);
 }
 //text навигация
 .landingpage__navigation {
@@ -548,7 +599,7 @@ li {cursor: pointer;
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  color: #1F2041;
+  color: #1f2041;
 }
 //text about us
 .landingpage__aboutusfooter {
@@ -619,7 +670,7 @@ li {cursor: pointer;
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  color: #1F2041;
+  color: #1f2041;
 }
 //text о сервисе
 .landingpage__whowearefooter {
@@ -690,7 +741,7 @@ li {cursor: pointer;
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  color: #1F2041;
+  color: #1f2041;
 }
 //text соглашения
 .landingpage__documentationfooter {
@@ -747,7 +798,7 @@ li {cursor: pointer;
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  color: #1F2041;
+  color: #1f2041;
 }
 //text Получайте специальные предложения и новости сервиса
 .landingpage__columnsubscribefooter {
@@ -770,7 +821,7 @@ li {cursor: pointer;
   height: 4.4rem;
   left: 104rem;
   top: 20.8rem;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 0.1rem solid rgba(31, 32, 65, 0.1);
   box-sizing: border-box;
   border-radius: 0.4rem;
@@ -787,15 +838,1332 @@ li {cursor: pointer;
   display: flex;
   align-items: center;
   text-align: center;
-.arrowforwardfooter {
-margin: 0 auto;
-cursor: pointer;
-}
+  .arrowforwardfooter {
+    margin: 0 auto;
+    cursor: pointer;
+  }
 }
 .landingpage__formmailfooter::-webkit-input-placeholder {
   color: rgba(31, 32, 65, 0.2);
   padding-left: 1.5rem;
   font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
+}
+//footer2
+.landingpage__footer2 {
+  position: absolute;
+  width: 144rem;
+  height: 7rem;
+  //left: -1px;
+  top: 127.3rem;
+  background: #ffffff;
+  box-shadow: 0px 1rem 2rem rgba(31, 32, 65, 0.05);
+}
+//text copyright
+.landingpage__copyrightfooter {
+  position: absolute;
+  width: 36.7rem;
+  height: 1.8rem;
+  left: 14rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//twitter
+.landingpage__twitterfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 118.8rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+//facebook
+.landingpage__facebookfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 123.2rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+//instagram
+.landingpage__instagramfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 127.6rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+//block landing page dates dropdown
+.landingpagedatesdropdown {
+  position: relative;
+  width: 144rem;
+  height: 134.3rem;
+  left: 60rem;
+}
+//landing page header
+.landingpagedatesdropdown__header {
+  position: absolute;
+  width: 144rem;
+  height: 7rem;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 1rem 2rem rgba(31, 32, 65, 0.05);
+}
+//logo header
+.landingpagedatesdropdown__logoheader {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: 14rem;
+  top: 1.5rem;
+}
+// text TOXIN
+.landingpagedatesdropdown__toxin {
+  position: absolute;
+  width: 5.319rem;
+  height: 1.295rem;
+  left: 19.25rem;
+  top: 2.833rem;
+  .landingpageheaderdatesdropdown__TOXIN {
+    margin: 0 auto;
+  }
+}
+//text about us
+.landingpageheaderdatesdropdown__aboutus {
+  position: absolute;
+  width: 4.2rem;
+  height: 1.8rem;
+  left: 53.1rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text services
+.landingpageheaderdatesdropdown__services {
+  position: absolute;
+  width: 5rem;
+  height: 1.8rem;
+  left: 59.3rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//arrow down hf
+.landingpageheaderdatesdropdown__arrowdownservices {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.1rem;
+  left: 64.3rem;
+  top: 2.5rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  .arrowdownservice {
+    margin: 0 auto;
+  }
+}
+//text carrers
+.landingpageheaderdatesdropdown__careers {
+  position: absolute;
+  width: 7.2rem;
+  height: 1.8rem;
+  left: 68.7rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text news
+.landingpageheaderdatesdropdown__news {
+  position: absolute;
+  width: 6.2rem;
+  height: 1.8rem;
+  left: 77.9rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text documentation
+.landingpageheaderdatesdropdown__documentation {
+  position: absolute;
+  width: 9.2rem;
+  height: 1.8rem;
+  left: 86.1rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+.landingpageheaderdatesdropdown__arrowdowndocumentation {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.1rem;
+  left: 95.3rem;
+  top: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  .arrowdowndocumentation {
+    margin: 0 auto;
+  }
+}
+//button login
+.landingpageheaderdatesdropdown__btnlogin {
+  position: absolute;
+  width: 8.7rem;
+  height: 3.4rem;
+  left: 99.7rem;
+  top: 1.8rem;
+  border-radius: 2.2rem;
+  border: 0.2rem solid #bc9cff;
+  cursor: pointer;
+  .landingpageheaderdatesdropdown__login {
+    position: absolute;
+    width: 4.7rem;
+    height: 1.5rem;
+    left: 2rem;
+    top: 0.9rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #bc9cff;
+  }
+}
+//button register
+.landingpageheaderdatesdropdown__register {
+  position: absolute;
+  width: 19.6rem;
+  height: 3.4rem;
+  left: 110.4rem;
+  top: 1.8rem;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 2.2rem;
+  cursor: pointer;
+  .landingpageheaderdatesdropdown__textregister {
+    position: absolute;
+    width: 15.7rem;
+    height: 1.5rem;
+    left: 1.9rem;
+    top: 0.9rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+//page landing room
+.landingpagedatesdropdown__background {
+  position: absolute;
+  width: 160rem;
+  height: 90rem;
+  //left: 144rem;
+  top: 7rem;
+}
+//поиск номера
+.landingpagedatesdropdown__search {
+  position: absolute;
+  width: 38rem;
+  height: 37.4rem;
+  left: 14rem;
+  top: 21rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
+}
+
+//hearding
+.landingpagedatesdropdown__heading {
+  position: absolute;
+  width: 32rem;
+  height: 6rem;
+  left: 3.1rem;
+  top: 4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 3rem;
+  color: #1f2041;
+  margin: 0 auto;
+  word-spacing: 0.15rem;
+}
+//прибытие
+.landingpagedatesdropdown__labelarrival {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 2.8rem;
+  top: 12rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//form date arrival
+.landingpagedatesdropdown__arrival {
+  position: absolute;
+  width: 15rem;
+  height: 4.4rem;
+  left: 3rem;
+  top: 14.044rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-left: 1.4rem;
+  padding-bottom: 0.6rem;
+}
+
+//icons arrow down arrival
+.landingpagedatesdropdown__material-iconsarrival {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 13.5rem;
+  top: 14.1rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  .arrowdownarrival {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+
+//Выезд
+.landingpagedatesdropdown__labelpdeparture {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 19.9rem;
+  top: 12rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+
+//form date departure
+.landingpagedatesdropdown__departure {
+  position: absolute;
+  width: 15rem;
+  height: 4.4rem;
+  left: 20rem;
+  top: 14.044rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-left: 1.4rem;
+  padding-bottom: 0.6rem;
+}
+
+//icons arrow down departure
+.landingpagedatesdropdown__material-iconsdeparture {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 30.5rem;
+  top: 14.1rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  .arrowdowndeparture {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+//block calendar
+.landingpagedatesdropdown__calendar {
+  position: absolute;
+  width: 32rem;
+  height: 36.9rem;
+  left: 3rem;
+  top: 19rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  box-shadow: 0rem 1rem 2rem rgba(31, 32, 65, 0.05);
+  border-radius: 0.4rem;
+  z-index: 3;
+  cursor: pointer;
+}
+//arrow back
+.landingpagedatesdropdown__arrow_back {
+  position: absolute;
+  width: 2.393rem;
+  height: 2.4rem;
+  left: 2.02rem;
+  top: 2rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #bc9cff;
+}
+//Август 2019
+.landingpagedatesdropdown__august2019 {
+  position: absolute;
+  width: 11.4rem;
+  height: 2.4rem;
+  left: 10.3rem;
+  top: 2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: #1f2041;
+  span {
+    font-family: Quicksand;
+  }
+  white-space: nowrap;
+}
+//arrow forward
+.landingpagedatesdropdown__arrow_forward {
+  position: absolute;
+  width: 2.393rem;
+  height: 2.4rem;
+  left: 27.54rem;
+  top: 2rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #bc9cff;
+}
+//calendar days
+.landingpagedatesdropdown__monday {
+  @include calendar_daysweek(2.12rem);
+}
+.landingpagedatesdropdown__tuesday {
+  @include calendar_daysweek(6.107rem);
+}
+.landingpagedatesdropdown__wednesday {
+  @include calendar_daysweek(10.095rem);
+}
+.landingpagedatesdropdown__thursday {
+  @include calendar_daysweek(14.082rem);
+}
+.landingpagedatesdropdown__friday {
+  @include calendar_daysweek(18.07rem);
+}
+.landingpagedatesdropdown__saturday {
+  @include calendar_daysweek(22.058rem);
+}
+.landingpagedatesdropdown__sunday {
+  @include calendar_daysweek(26.045rem);
+}
+//calendar days
+.landingpagedatesdropdown__29jule {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 2.12rem;
+  top: 11.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.25);
+  display: inline-block;
+  line-height: 4rem;
+}
+.landingpagedatesdropdown__30jule {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 6.107rem;
+  top: 11.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.25);
+  display: inline-block;
+  line-height: 4rem;
+}
+.landingpagedatesdropdown__31jule {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 10.095rem;
+  top: 11.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.25);
+  display: inline-block;
+  line-height: 4rem;
+}
+.landingpagedatesdropdown__1 {
+  @include calendar_days(14.056rem, 11.356rem);
+}
+.landingpagedatesdropdown__2 {
+  @include calendar_days(18.044rem, 11.356rem);
+}
+.landingpagedatesdropdown__3 {
+  @include calendar_days(22.031rem, 11.356rem);
+}
+.landingpagedatesdropdown__4 {
+  @include calendar_days(26.019rem, 11.356rem);
+}
+.landingpagedatesdropdown__5 {
+  @include calendar_days(2.094rem, 15.356rem);
+}
+.landingpagedatesdropdown__6 {
+  @include calendar_days(6.081rem, 15.356rem);
+}
+.landingpagedatesdropdown__7 {
+  @include calendar_days(10.069rem, 15.356rem);
+}
+.landingpagedatesdropdown__8 {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 14.082rem;
+  top: 15.4rem;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border-radius: 2.2rem;
+  color: white;
+  display: inline-block;
+  line-height: 4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.landingpagedatesdropdown__9 {
+  @include calendar_days(18.044rem, 15.356rem);
+}
+.landingpagedatesdropdown__10 {
+  @include calendar_days(22.031rem, 15.356rem);
+}
+.landingpagedatesdropdown__11 {
+  @include calendar_days(26.019rem, 15.356rem);
+}
+.landingpagedatesdropdown__12 {
+  @include calendar_days(2.094rem, 19.356rem);
+}
+.landingpagedatesdropdown__13 {
+  @include calendar_days(6.081rem, 19.356rem);
+}
+.landingpagedatesdropdown__14 {
+  @include calendar_days(10.069rem, 19.356rem);
+}
+.landingpagedatesdropdown__15 {
+  @include calendar_days(14.056rem, 19.356rem);
+}
+.landingpagedatesdropdown__16 {
+  @include calendar_days(18.044rem, 19.356rem);
+}
+.landingpagedatesdropdown__17 {
+  @include calendar_days(22.031rem, 19.356rem);
+}
+.landingpagedatesdropdown__18 {
+  @include calendar_days(26.019rem, 19.356rem);
+}
+.landingpagedatesdropdown__19 {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 2.12rem;
+  top: 23.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 4rem;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 2.2rem;
+}
+.landingpagedatesdropdown__20 {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 6.081rem;
+  top: 23.356rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  line-height: 4rem;
+}
+.landingpagedatesdropdown__21 {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 10.069rem;
+  top: 23.356rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  line-height: 4rem;
+}
+.landingpagedatesdropdown__22 {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 14.056rem;
+  top: 23.356rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  line-height: 4rem;
+}
+.landingpagedatesdropdown__23 {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 18.07rem;
+  top: 23.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  line-height: 4rem;
+  color: #ffffff;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 2.2rem;
+}
+//заливка дней недели 19,20,21,22,23
+.landingpagedatesdropdown__backgrounddays19-23 {
+  position: absolute;
+  width: 15.95rem;
+  height: 4rem;
+  left: 4.114rem;
+  top: 23.4rem;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  opacity: 0.25;
+}
+.landingpagedatesdropdown__24 {
+  @include calendar_days(22.031rem, 23.356rem);
+}
+.landingpagedatesdropdown__25 {
+  @include calendar_days(26.019rem, 23.356rem);
+}
+.landingpagedatesdropdown__26 {
+  @include calendar_days(2.094rem, 27.356rem);
+}
+.landingpagedatesdropdown__27 {
+  @include calendar_days(6.081rem, 27.356rem);
+}
+.landingpagedatesdropdown__28 {
+  @include calendar_days(10.069rem, 27.356rem);
+}
+.landingpagedatesdropdown__29 {
+  @include calendar_days(14.056rem, 27.356rem);
+}
+.landingpagedatesdropdown__30 {
+  @include calendar_days(18.044rem, 27.356rem);
+}
+.landingpagedatesdropdown__31 {
+  @include calendar_days(22.031rem, 27.356rem);
+}
+.landingpagedatesdropdown__1september {
+  position: absolute;
+  width: 3.988rem;
+  height: 4rem;
+  left: 26.045rem;
+  top: 27.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.25);
+  display: inline-block;
+  line-height: 4rem;
+}
+// text Очистить
+.landingpagedatesdropdown__clearcalendar {
+  position: absolute;
+  width: 7.2rem;
+  height: 1.5rem;
+  left: 2rem;
+  top: 33.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text Применить
+.landingpagedatesdropdown__applycalendar {
+  position: absolute;
+  width: 8.4rem;
+  height: 1.5rem;
+  left: 21.6rem;
+  top: 33.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #bc9cff;
+}
+//text Гости
+.landingpagedatesdropdown__textguests {
+  position: absolute;
+  width: 4.3rem;
+  height: 1.5rem;
+  //left: 2.8rem;
+  left: 3rem;
+  top: 20.5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+
+// form guests
+.landingpagedatesdropdown__formguests {
+  position: absolute;
+  width: 32rem;
+  height: 4.4rem;
+  left: 3rem;
+  top: 22.5rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-left: 1.3rem;
+}
+// arrow down guests
+.landingpagedatesdropdown__material-iconsguests {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 30.5rem;
+  top: 22.556rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  .arrowdownguests {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+//form select number
+.landingpagedatesdropdown__selectnumber {
+  position: absolute;
+  width: 32rem;
+  height: 4.4rem;
+  left: 3rem;
+  top: 30rem;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 2.2rem;
+}
+//text выбор номера
+.landingpagedatesdropdown__textselectnumber {
+  position: absolute;
+  width: 28rem;
+  height: 1.5rem;
+  left: 1.8rem;
+  top: 1.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+//arrow forward select number
+.landingpagedatesdropdown__material-iconsselectnumber {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 27.6rem;
+  //top: 300px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  .arrowforward {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+//Выпадающий список кол-ва гостей
+.landingpagedatesdropdown__title {
+  width: 3.5rem;
+  height: 9.7rem;
+  position: absolute;
+  left: 31.174rem;
+  top: 26.856rem;
+  z-index: 3;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  border-radius: 0.4rem;
+  display: none;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  ul {
+    padding: 0.5rem;
+    margin: 0;
+    list-style-type: none;
+  }
+  li {
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+  }
+}
+//Лучшие номера для вашей работы, отдыха и просто вдохновения
+.landingpagedatesdropdown__bestroom {
+  position: absolute;
+  width: 29.7rem;
+  height: 4.8rem;
+  left: 100.9rem;
+  top: 83.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.75);
+}
+//footer
+.landingpagedatesdropdown__footer {
+  position: absolute;
+  width: 144rem;
+  height: 37.2rem;
+  left: 0rem;
+  top: 90rem;
+  background: #ffffff;
+  box-shadow: 0rem 0.1rem 0rem rgba(31, 32, 65, 0.1);
+}
+//logo
+.landingpagedatesdropdown__logofooter {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: 14rem;
+  top: 10rem;
+}
+//toxin
+.landingpagedatesdropdown__TOXINfooter {
+  position: absolute;
+  width: 5.319rem;
+  height: 1.295rem;
+  left: 19.25rem;
+  top: 11.33rem;
+  background: #1f2041;
+}
+//text under logo
+.landingpagedatesdropdown__textunderlogo {
+  position: absolute;
+  width: 26rem;
+  height: 7.2rem;
+  left: 14rem;
+  top: 16rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//text навигация
+.landingpagedatesdropdown__navigation {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 44rem;
+  top: 10.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//text about us
+.landingpagedatesdropdown__aboutusfooter {
+  position: absolute;
+  width: 4.2rem;
+  height: 1.8rem;
+  left: 44rem;
+  top: 14rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text новости
+.landingpagedatesdropdown__newsfooter {
+  position: absolute;
+  width: 6.2rem;
+  height: 1.8rem;
+  left: 44rem;
+  top: 17.8rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//служба поддержки
+.landingpagedatesdropdown__supportfooter {
+  position: absolute;
+  width: 14.3rem;
+  height: 1.8rem;
+  left: 44rem;
+  top: 21.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text услуги
+.landingpagedatesdropdown__productsfooter {
+  position: absolute;
+  width: 5rem;
+  height: 1.8rem;
+  left: 44rem;
+  top: 25.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text о нас
+.landingpagedatesdropdown__aboutusboldfooter {
+  position: absolute;
+  width: 4.2rem;
+  height: 1.5rem;
+  left: 64rem;
+  top: 10.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//text о сервисе
+.landingpagedatesdropdown__whowearefooter {
+  position: absolute;
+  width: 7.7rem;
+  height: 1.8rem;
+  left: 64rem;
+  top: 14rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text наша команда
+.landingpagedatesdropdown__ourteamfooter {
+  position: absolute;
+  width: 10.8rem;
+  height: 1.8rem;
+  left: 64rem;
+  top: 17.8rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text Вакансии
+.landingpagedatesdropdown__careerscolumnaboutus {
+  position: absolute;
+  width: 7.2rem;
+  height: 1.8rem;
+  left: 64rem;
+  top: 21.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//ext инвесторы
+.landingpagedatesdropdown__investorsfooter {
+  position: absolute;
+  width: 8.2rem;
+  height: 1.8rem;
+  left: 64rem;
+  top: 25.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text служба поддержки
+.landingpagedatesdropdown__supportbold {
+  position: absolute;
+  width: 14.9rem;
+  height: 1.5rem;
+  left: 84rem;
+  top: 10.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//text соглашения
+.landingpagedatesdropdown__documentationfooter {
+  position: absolute;
+  width: 9.2rem;
+  height: 1.8rem;
+  left: 84rem;
+  top: 14rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text сообщества
+.landingpagedatesdropdown__communityfooter {
+  position: absolute;
+  width: 9rem;
+  height: 1.8rem;
+  left: 84rem;
+  top: 17.8rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text связь с нами
+.landingpagedatesdropdown__getintouchfooter {
+  position: absolute;
+  width: 9.6rem;
+  height: 1.8rem;
+  left: 84rem;
+  top: 21.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text подписка
+.landingpagedatesdropdown__subscribefooter {
+  position: absolute;
+  width: 7.6rem;
+  height: 1.5rem;
+  left: 104rem;
+  top: 10.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//text Получайте специальные предложения и новости сервиса
+.landingpagedatesdropdown__columnsubscribefooter {
+  position: absolute;
+  width: 26rem;
+  height: 4.8rem;
+  left: 104rem;
+  top: 14rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//form email adress
+.landingpagedatesdropdown__formmailfooter {
+  position: absolute;
+  width: 26rem;
+  height: 4.4rem;
+  left: 104rem;
+  top: 20.8rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.1);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+}
+//img arrow forward
+.landingpagedatesdropdown__arrowforwardfooter {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 125.6rem;
+  top: 20.8rem;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  .arrowforwardfooter {
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}
+.landingpagedatesdropdown__formmailfooter::-webkit-input-placeholder {
+  color: rgba(31, 32, 65, 0.2);
+  padding-left: 1.5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
+//footer2
+.landingpagedatesdropdown__footer2 {
+  position: absolute;
+  width: 144rem;
+  height: 7rem;
+  //left: -1px;
+  top: 127.3rem;
+  background: #ffffff;
+  box-shadow: 0px 1rem 2rem rgba(31, 32, 65, 0.05);
+}
+//text copyright
+.landingpagedatesdropdown__copyrightfooter {
+  position: absolute;
+  width: 36.7rem;
+  height: 1.8rem;
+  left: 14rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//twitter
+.landingpagedatesdropdown__twitterfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 118.8rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+//facebook
+.landingpagedatesdropdown__facebookfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 123.2rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+//instagram
+.landingpagedatesdropdown__instagramfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 127.6rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
