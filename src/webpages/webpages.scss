@@ -45,8 +45,8 @@ body {
 //landing page
 .landingpage {
   position: relative;
-  width: 90rem;
-  height: 83, 94rem;
+  width: 144rem;
+  height: 134.3rem;
 }
 //landing page header
 .landingpage__header {
@@ -913,7 +913,7 @@ body {
   position: relative;
   width: 144rem;
   height: 134.3rem;
-  left: 60rem;
+  left: 3rem;
 }
 //landing page header
 .landingpagedatesdropdown__header {
@@ -2158,6 +2158,1155 @@ body {
 }
 //instagram
 .landingpagedatesdropdown__instagramfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 127.6rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+//block Landing page/Guests Dropdown
+.landingpageguests {
+  position: relative;
+  width: 144rem;
+  height: 134.3rem;
+  margin: 6rem;
+}
+//landing page header
+.landingpageguests__header {
+  position: absolute;
+  width: 144rem;
+  height: 7rem;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+//logo header
+.landingpageguests__logoheader {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: 14rem;
+  top: 1.5rem;
+}
+// text TOXIN
+.landingpageguests__toxin {
+  position: absolute;
+  width: 5.319rem;
+  height: 1.295rem;
+  left: 19.25rem;
+  top: 2.833rem;
+  .landingpageheader__TOXIN {
+    margin: 0 auto;
+  }
+}
+//text about us
+.landingpageheaderguests__aboutus {
+  position: absolute;
+  width: 4.2rem;
+  height: 1.8rem;
+  left: 53.1rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text services
+.landingpageheaderguests__services {
+  position: absolute;
+  width: 5rem;
+  height: 1.8rem;
+  left: 59.3rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//arrow down hf
+.landingpageheaderguests__arrowdownservices {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.1rem;
+  left: 64.3rem;
+  top: 2.5rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  .arrowdownservice {
+    margin: 0 auto;
+  }
+}
+//text carrers
+.landingpageheaderguests__careers {
+  position: absolute;
+  width: 7.2rem;
+  height: 1.8rem;
+  left: 68.7rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text news
+.landingpageheaderguests__news {
+  position: absolute;
+  width: 6.2rem;
+  height: 1.8rem;
+  left: 77.9rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text documentation
+.landingpageheaderguests__documentation {
+  position: absolute;
+  width: 9.2rem;
+  height: 1.8rem;
+  left: 86.1rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+.landingpageheaderguests__arrowdowndocumentation {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.1rem;
+  left: 95.3rem;
+  top: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  .arrowdowndocumentation {
+    margin: 0 auto;
+  }
+}
+//button login
+.landingpageheaderguests__btnlogin {
+  position: absolute;
+  width: 8.7rem;
+  height: 3.4rem;
+  left: 99.7rem;
+  top: 1.8rem;
+  border-radius: 2.2rem;
+  border: 0.2rem solid #bc9cff;
+  cursor: pointer;
+  .landingpageheaderguests__login {
+    position: absolute;
+    width: 4.7rem;
+    height: 1.5rem;
+    left: 2rem;
+    top: 0.9rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #bc9cff;
+  }
+}
+//button register
+.landingpageheaderguests__register {
+  position: absolute;
+  width: 19.6rem;
+  height: 3.4rem;
+  left: 110.4rem;
+  top: 1.8rem;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 2.2rem;
+  cursor: pointer;
+  .landingpageheaderguests__textregister {
+    position: absolute;
+    width: 15.7rem;
+    height: 1.5rem;
+    left: 1.9rem;
+    top: 0.9rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+//page landing room
+.landingpageguests__background {
+  position: absolute;
+  width: 160rem;
+  height: 90rem;
+  //left: 144rem;
+  top: 7rem;
+}
+//поиск номера
+.landingpageguests__search {
+  position: absolute;
+  width: 38rem;
+  height: 37.4rem;
+  left: 14rem;
+  top: 21rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
+}
+
+//hearding
+.landingpageguests__heading {
+  position: absolute;
+  width: 32rem;
+  height: 6rem;
+  left: 3.1rem;
+  top: 4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 3rem;
+  color: #1f2041;
+  margin: 0 auto;
+  word-spacing: 0.15rem;
+}
+//прибытие
+.landingpageguests__labelarrival {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 2.8rem;
+  top: 12rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//form date arrival
+.landingpageguests__arrival {
+  position: absolute;
+  width: 15rem;
+  height: 4.4rem;
+  left: 3rem;
+  top: 14.044rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-left: 1.4rem;
+  padding-bottom: 0.6rem;
+}
+
+//icons arrow down arrival
+.landingpageguests__material-iconsarrival {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 13.5rem;
+  top: 14.1rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  .arrowdownarrival {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+
+//Выезд
+.landingpageguests__labelpdeparture {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 19.9rem;
+  top: 12rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+
+//form date departure
+.landingpageguests__departure {
+  position: absolute;
+  width: 15rem;
+  height: 4.4rem;
+  left: 20rem;
+  top: 14.044rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-left: 1.4rem;
+  padding-bottom: 0.6rem;
+}
+
+//icons arrow down departure
+.landingpageguests__material-iconsdeparture {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 30.5rem;
+  top: 14.1rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  .arrowdowndeparture {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+
+//text Гости
+.landingpageguests__textguests {
+  position: absolute;
+  width: 4.3rem;
+  height: 1.5rem;
+  left: 2.8rem;
+  top: 20.5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//dropdown form landing page guests
+.landingpageguests__dropdown3гостя {
+  position: absolute;
+  width: 32rem;
+  height: 4.4rem;
+  left: 3rem;
+  top: 22.644rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  z-index: 3;
+}
+.landingpageguests__3гостя {
+  position: absolute;
+  width: 5rem;
+  height: 1.8rem;
+  left: 1.5rem;
+  top: 1.256rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+.landingpageguests__arrowdown3гостя {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 27.6rem;
+  //top: ;
+  img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+.landingpageguests__textвзрослыедетимладенцы {
+  position: absolute;
+  width: 32rem;
+  height: 15.9rem;
+  left: 3rem;
+  top: 26.9rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  z-index: 3;
+}
+.landingpageguests__взрослые {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 1.5rem;
+  top: 1.3rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+.landingpageguests__дети {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 1.5rem;
+  top: 5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+.landingpageguests__младенцы {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 1.5rem;
+  top: 8.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+.landingpageguests__взрослые2 {
+  position: absolute;
+  width: 9.2rem;
+  height: 1.5rem;
+  left: 22.1rem;
+  top: 1.3rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+.landingpageguests__дети1 {
+  position: absolute;
+  width: 9.2rem;
+  height: 1.5rem;
+  left: 22.1rem;
+  top: 5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+.landingpageguests__младенцы0 {
+  position: absolute;
+  width: 9.2rem;
+  height: 1.5rem;
+  left: 22.1rem;
+  top: 8.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//button minus
+.landingpageguests__buttonminusвзрослые2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 22.1rem;
+  top: 0.744rem;
+  line-height: 3rem;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 2.2rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  hr {
+    opacity: 0.7;
+  }
+}
+.landingpageguests__buttonminusдети1 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 22.1rem;
+  top: 4.444rem;
+  line-height: 3rem;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 2.2rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  hr {
+    opacity: 0.7;
+  }
+}
+.landingpageguests__buttonminusмладенцы0 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 22.1rem;
+  top: 8.1rem;
+  line-height: 3rem;
+  border: 0.1rem solid rgba(31, 32, 65, 0.1);
+  box-sizing: border-box;
+  border-radius: 2.2rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  hr {
+    opacity: 0.3;
+  }
+}
+//button plus
+.landingpageguests__buttonplusвзрослые2 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 28.3rem;
+  top: 0.7rem;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 2.2rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  span {
+    color: rgba(31, 32, 65, 0.5);
+    font-weight: bold;
+  }
+}
+.landingpageguests__buttonplusдети1 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 28.3rem;
+  top: 4.4rem;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 2.2rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  span {
+    color: rgba(31, 32, 65, 0.5);
+    font-weight: bold;
+  }
+}
+.landingpageguests__buttonplusмладенцы0 {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 28.3rem;
+  top: 8.2rem;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 2.2rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  span {
+    color: rgba(31, 32, 65, 0.5);
+    font-weight: bold;
+  }
+}
+// text очистить
+.landingpageguests__textочистить {
+  position: absolute;
+  width: 7.2rem;
+  height: 1.5rem;
+  left: 1.4rem;
+  top: 13.1rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text применить
+.landingpageguests__buttonприменить {
+  position: absolute;
+  width: 8.4rem;
+  height: 1.5rem;
+  left: 22.9rem;
+  top: 13.1rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #bc9cff;
+}
+
+// form guests
+.landingpageguests__formguests {
+  position: absolute;
+  width: 32rem;
+  height: 4.4rem;
+  left: 3rem;
+  top: 22.5rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-left: 1.3rem;
+}
+// arrow down guests
+.landingpageguests__material-iconsguests {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 30.5rem;
+  top: 22.556rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  .arrowdownguests {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+//form select number
+.landingpageguests__selectnumber {
+  position: absolute;
+  width: 32rem;
+  height: 4.4rem;
+  left: 3rem;
+  top: 30rem;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 2.2rem;
+}
+//text выбор номера
+.landingpageguests__textselectnumber {
+  position: absolute;
+  width: 28rem;
+  height: 1.5rem;
+  left: 1.8rem;
+  top: 1.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+//arrow forward select number
+.landingpageguests__material-iconsselectnumber {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 27.6rem;
+  //top: 300px;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  .arrowforward {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+//Выпадающий список кол-ва гостей
+.landingpageguests__title {
+  width: 3.5rem;
+  height: 9.7rem;
+  position: absolute;
+  left: 31.174rem;
+  top: 26.856rem;
+  z-index: 3;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  border-radius: 0.4rem;
+  display: none;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  ul {
+    padding: 0.5rem;
+    margin: 0;
+    list-style-type: none;
+  }
+  li {
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+  }
+}
+//Лучшие номера для вашей работы, отдыха и просто вдохновения
+.landingpageguests__bestroom {
+  position: absolute;
+  width: 29.7rem;
+  height: 4.8rem;
+  left: 100.9rem;
+  top: 83.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.75);
+}
+//footer
+.landingpageguests__footer {
+  position: absolute;
+  width: 144rem;
+  height: 37.2rem;
+  left: 0rem;
+  top: 90rem;
+  background: #ffffff;
+  box-shadow: 0rem 0.1rem 0rem rgba(31, 32, 65, 0.1);
+}
+//logo
+.landingpageguests__logofooter {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: 14rem;
+  top: 10rem;
+}
+//toxin
+.landingpageguests__TOXINfooter {
+  position: absolute;
+  width: 5.319rem;
+  height: 1.295rem;
+  left: 19.25rem;
+  top: 11.33rem;
+  background: #1f2041;
+}
+//text under logo
+.landingpageguests__textunderlogo {
+  position: absolute;
+  width: 26rem;
+  height: 7.2rem;
+  left: 14rem;
+  top: 16rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//text навигация
+.landingpageguests__navigation {
+  position: absolute;
+  width: 8.3rem;
+  height: 1.5rem;
+  left: 44rem;
+  top: 10.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//text about us
+.landingpageguests__aboutusfooter {
+  position: absolute;
+  width: 4.2rem;
+  height: 1.8rem;
+  left: 44rem;
+  top: 14rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text новости
+.landingpageguests__newsfooter {
+  position: absolute;
+  width: 6.2rem;
+  height: 1.8rem;
+  left: 44rem;
+  top: 17.8rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//служба поддержки
+.landingpageguests__supportfooter {
+  position: absolute;
+  width: 14.3rem;
+  height: 1.8rem;
+  left: 44rem;
+  top: 21.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text услуги
+.landingpageguests__productsfooter {
+  position: absolute;
+  width: 5rem;
+  height: 1.8rem;
+  left: 44rem;
+  top: 25.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text о нас
+.landingpageguests__aboutusboldfooter {
+  position: absolute;
+  width: 4.2rem;
+  height: 1.5rem;
+  left: 64rem;
+  top: 10.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//text о сервисе
+.landingpageguests__whowearefooter {
+  position: absolute;
+  width: 7.7rem;
+  height: 1.8rem;
+  left: 64rem;
+  top: 14rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text наша команда
+.landingpageguests__ourteamfooter {
+  position: absolute;
+  width: 10.8rem;
+  height: 1.8rem;
+  left: 64rem;
+  top: 17.8rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text Вакансии
+.landingpageguests__careerscolumnaboutus {
+  position: absolute;
+  width: 7.2rem;
+  height: 1.8rem;
+  left: 64rem;
+  top: 21.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//ext инвесторы
+.landingpageguests__investorsfooter {
+  position: absolute;
+  width: 8.2rem;
+  height: 1.8rem;
+  left: 64rem;
+  top: 25.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text служба поддержки
+.landingpageguests__supportbold {
+  position: absolute;
+  width: 14.9rem;
+  height: 1.5rem;
+  left: 84rem;
+  top: 10.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//text соглашения
+.landingpageguests__documentationfooter {
+  position: absolute;
+  width: 9.2rem;
+  height: 1.8rem;
+  left: 84rem;
+  top: 14rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text сообщества
+.landingpageguests__communityfooter {
+  position: absolute;
+  width: 9rem;
+  height: 1.8rem;
+  left: 84rem;
+  top: 17.8rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text связь с нами
+.landingpageguests__getintouchfooter {
+  position: absolute;
+  width: 9.6rem;
+  height: 1.8rem;
+  left: 84rem;
+  top: 21.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text подписка
+.landingpageguests__subscribefooter {
+  position: absolute;
+  width: 7.6rem;
+  height: 1.5rem;
+  left: 104rem;
+  top: 10.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//text Получайте специальные предложения и новости сервиса
+.landingpageguests__columnsubscribefooter {
+  position: absolute;
+  width: 26rem;
+  height: 4.8rem;
+  left: 104rem;
+  top: 14rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//form email adress
+.landingpageguests__formmailfooter {
+  position: absolute;
+  width: 26rem;
+  height: 4.4rem;
+  left: 104rem;
+  top: 20.8rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.1);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+}
+//img arrow forward
+.landingpageguests__arrowforwardfooter {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 125.6rem;
+  top: 20.8rem;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  .arrowforwardfooter {
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}
+.landingpageguests__formmailfooter::-webkit-input-placeholder {
+  color: rgba(31, 32, 65, 0.2);
+  padding-left: 1.5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
+//footer2
+.landingpageguests__footer2 {
+  position: absolute;
+  width: 144rem;
+  height: 7rem;
+  //left: -1px;
+  top: 127.3rem;
+  background: #ffffff;
+  box-shadow: 0px 1rem 2rem rgba(31, 32, 65, 0.05);
+}
+//text copyright
+.landingpageguests__copyrightfooter {
+  position: absolute;
+  width: 36.7rem;
+  height: 1.8rem;
+  left: 14rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//twitter
+.landingpageguests__twitterfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 118.8rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+//facebook
+.landingpageguests__facebookfooter {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 123.2rem;
+  top: 2.3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+//instagram
+.landingpageguests__instagramfooter {
   position: absolute;
   width: 2.4rem;
   height: 2.4rem;
