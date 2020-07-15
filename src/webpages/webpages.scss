@@ -974,7 +974,7 @@ body {
   color: rgba(31, 32, 65, 0.5);
   cursor: pointer;
 }
-//arrow down hf
+//arrow down
 .landingpageheaderdatesdropdown__arrowdownservices {
   position: absolute;
   width: 2.4rem;
@@ -1132,7 +1132,7 @@ body {
   border-radius: 0.4rem;
 }
 
-//hearding
+//heading
 .landingpagedatesdropdown__heading {
   position: absolute;
   width: 32rem;
@@ -3315,4 +3315,2114 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+//block Search room/Filter
+.searchroomfilter {
+  position: relative;
+  width: 144rem;
+  height: 188rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+//header search room filter
+.searchroomfilter__header {
+  position: absolute;
+  width: 144rem;
+  height: 7rem;
+  background: #ffffff;
+  box-shadow: 0rem 1rem 2rem rgba(31, 32, 65, 0.05);
+  z-index: 3;
+}
+//logo header
+.searchroomfilter__logoheader {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: 14rem;
+  top: 1.5rem;
+}
+// text TOXIN
+.searchroomfilter__toxin {
+  position: absolute;
+  width: 5.319rem;
+  height: 1.295rem;
+  left: 19.25rem;
+  top: 2.833rem;
+  .searchroomfilter__TOXIN {
+    margin: 0 auto;
+  }
+}
+//text about us
+.searchroomfilter__aboutus {
+  position: absolute;
+  width: 4.2rem;
+  height: 1.8rem;
+  left: 53.1rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text services
+.searchroomfilter__services {
+  position: absolute;
+  width: 5rem;
+  height: 1.8rem;
+  left: 59.3rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//arrow down
+.searchroomfilter__arrowdownservices {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.1rem;
+  left: 64.3rem;
+  top: 2.5rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  .arrowdownservice {
+    margin: 0 auto;
+  }
+}
+//text carrers
+.searchroomfilter__careers {
+  position: absolute;
+  width: 7.2rem;
+  height: 1.8rem;
+  left: 68.7rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text news
+.searchroomfilter__news {
+  position: absolute;
+  width: 6.2rem;
+  height: 1.8rem;
+  left: 77.9rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+//text documentation
+.searchroomfilter__documentation {
+  position: absolute;
+  width: 9.2rem;
+  height: 1.8rem;
+  left: 86.1rem;
+  top: 2.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+}
+.searchroomfilter__arrowdowndocumentation {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.1rem;
+  left: 95.3rem;
+  top: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  cursor: pointer;
+  .arrowdownsearchroomfilter {
+    margin: 0 auto;
+  }
+}
+//button login
+.searchroomfilter__btnlogin {
+  position: absolute;
+  width: 8.7rem;
+  height: 3.4rem;
+  left: 99.7rem;
+  top: 1.8rem;
+  border-radius: 2.2rem;
+  border: 0.2rem solid #bc9cff;
+  cursor: pointer;
+  .searchroomfilter__login {
+    position: absolute;
+    width: 4.7rem;
+    height: 1.5rem;
+    left: 2rem;
+    top: 0.9rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #bc9cff;
+  }
+}
+//button register
+.searchroomfilter__register {
+  position: absolute;
+  width: 19.6rem;
+  height: 3.4rem;
+  left: 110.4rem;
+  top: 1.8rem;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 2.2rem;
+  cursor: pointer;
+  .searchroomfilter__textregister {
+    position: absolute;
+    width: 15.7rem;
+    height: 1.5rem;
+    left: 1.9rem;
+    top: 0.9rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+//content search room filter
+.contentserchroomfilter {
+  position: absolute;
+  width: 144rem;
+  height: 138.5rem;
+  background: #ffffff;
+  top: 7rem;
+}
+//text filter date dropdown
+.searchroomfilter__filterdate {
+  position: absolute;
+  width: 19.7rem;
+  height: 1.5rem;
+  left: 14rem;
+  top: 3rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//input filter date
+.searchroomfilter__inputfilterdate {
+  position: absolute;
+  width: 26.6rem;
+  height: 4.4rem;
+  left: 14rem;
+  top: 5rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  padding-left: 1.5rem;
+}
+.searchroomfilter__inputfilterdate::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//arrow down input filter date
+.searchroomfilter__arrowdownfilterdate {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 36.2rem;
+  top: 5.1rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  .arrowdownfilterdate {
+    margin: 0 auto;
+  }
+}
+//dropdown guests
+.searchroomfilter__filterguests {
+  position: absolute;
+  width: 19.7rem;
+  height: 1.5rem;
+  left: 14rem;
+  top: 11.444rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//input filter guests
+.searchroomfilter__inputfilterguests {
+  position: absolute;
+  width: 26.6rem;
+  height: 4.4rem;
+  left: 14rem;
+  top: 13.4rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  padding-left: 1.5rem;
+}
+.searchroomfilter__inputfilterguests::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//arrow down input filter guests
+.searchroomfilter__arrowdownfilterguests {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 36.2rem;
+  top: 13.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.75);
+  .arrowdownfilterguests {
+    margin: 0 auto;
+  }
+}
+//text диапазон цен and 5 000₽ - 10 000₽
+.searchroomfilter__textrangeslider {
+  position: absolute;
+  width: 12.1rem;
+  height: 1.5rem;
+  left: 14rem;
+  top: 20.844rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+.searchroomfilter__price {
+  position: absolute;
+  width: 10.2rem;
+  height: 1.5rem;
+  left: 30.374rem;
+  top: 20.8rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(31, 32, 65, 0.5);
+}
+//line slider
+.searchroomfilter__lineslider {
+  position: absolute;
+  width: 26.6rem;
+  height: 0.6rem;
+  left: 14rem;
+  top: 24.644rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+}
+.searchroomfilter__leftslider {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: 21.7rem;
+  top: 24.1rem;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border: 0.2rem solid #ffffff;
+  border-radius: 1rem;
+  z-index: 1;
+}
+.searchroomfilter__slider {
+  position: absolute;
+  width: 8.8rem;
+  height: 0.6rem;
+  left: 22.2rem;
+  top: 24.644rem;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border-radius: 0.3rem;
+}
+.searchroomfilter__rightslider {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: 30.2rem;
+  top: 24.1rem;
+  background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+  border: 0.2rem solid #ffffff;
+  border-radius: 1rem;
+  z-index: 1;
+}
+//Стоимость за сутки пребывания в номере
+.serchroomfilter__priceforday {
+  position: absolute;
+  width: 26.4rem;
+  height: 1.4rem;
+  left: 14rem;
+  top: 26.6rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//Checkbox Buttons
+.searchroomfilter__checkboxbuttons {
+  position: absolute;
+  width: 13.6rem;
+  height: 1.5rem;
+  left: 14rem;
+  top: 31rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//checkbox можно курить
+.searchroomfilter__checkboxможнокурить {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  left: 14rem;
+  top: 34.156rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+}
+.searchroomfilter__можнокурить {
+  position: absolute;
+  width: 10.5rem;
+  height: 1.8rem;
+  left: 16.974rem;
+  top: 34.212rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//checkbox можно с питомцами
+.searchroomfilter__checkboxможноспитомцами {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  left: 14rem;
+  top: 37.212rem;
+  background: #ffffff;
+  border: 0.1rem solid #bc9cff;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  img {
+    position: absolute;
+    left: 0.405rem;
+    top: 0.305rem;
+    background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+}
+.searchroomfilter__можноспитомцами {
+  position: absolute;
+  width: 15.1rem;
+  height: 1.8rem;
+  left: 17rem;
+  top: 37.312rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//checkbox можно пригласить гостей до 10 человек
+.searchroomfilter__checkboxгостидо10человек {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  left: 14rem;
+  top: 40.212rem;
+  background: #ffffff;
+  border: 0.1rem solid #bc9cff;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  img {
+    position: absolute;
+    left: 0.405rem;
+    top: 0.305rem;
+    background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+}
+.searchroomfilter__гостидо10человек {
+  position: absolute;
+  width: 19.2rem;
+  height: 3.6rem;
+  left: 17rem;
+  top: 40.312rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text доступность
+.searchroomfilter__textrichcheckboxbuttons {
+  position: absolute;
+  width: 10rem;
+  height: 1.5rem;
+  left: 14rem;
+  top: 47rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//checkbox Rich Checkbox Buttons
+.searchroomfilter__широкийкоридор {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  left: 14rem;
+  top: 50.1rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+}
+//text широкий коридор
+.searchroomfilter__textширокийкоридор {
+  position: absolute;
+  width: 14.4rem;
+  height: 1.8rem;
+  left: 17rem;
+  top: 50.2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//text Ширина коридоров в номере не менее 91 см.
+.searchroomfilter__размеркоридора {
+  position: absolute;
+  width: 20.3rem;
+  height: 2.8rem;
+  left: 17rem;
+  top: 52.5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//checkbox Помощник для инвалидов
+.searchroomfilter__checkboxпомощникдляинвалидов {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  left: 14rem;
+  top: 56.3rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+}
+//text Помощник для инвалидов
+.searchroomfilter__textпомощникдляинвалидов {
+  position: absolute;
+  width: 20.3rem;
+  height: 1.8rem;
+  left: 17rem;
+  top: 56.4rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//text  На 1 этаже вас встретит специалист и проводит до номера.
+.searchroomfilter__textпомощьинвалидам {
+  position: absolute;
+  width: 23.6rem;
+  height: 2.8rem;
+  left: 17rem;
+  top: 58.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: rgba(31, 32, 65, 0.5);
+}
+//text удобства номера
+.searchroomfilter__удобстваномера {
+  position: absolute;
+  width: 13.3rem;
+  height: 1.5rem;
+  left: 14rem;
+  top: 64.544rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//input 2 спальни и 2 кровати
+.searchroomfilter__bedandbedroom {
+  position: absolute;
+  width: 26.6rem;
+  height: 4.4rem;
+  left: 14rem;
+  top: 66.5rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  padding-left: 1.5rem;
+}
+.searchroomfilter__bedandbedroom::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: rgba(31, 32, 65, 0.75);
+}
+//arrow down bed and bedroom
+.searchroomfilter__arrowdownbedandbedroom {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 36.2rem;
+  top: 66.544rem;
+  text-align: center;
+  line-height: 4.4rem;
+  cursor: pointer;
+}
+//text дополнительные удобства
+.searchroomfilter__дополнительныеудобства {
+  position: absolute;
+  width: 20.9rem;
+  height: 1.5rem;
+  left: 14rem;
+  top: 73.9rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+//arrow down дополнительные удобства
+.searchroomfilter__arrowdownудобства {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 36.2rem;
+  top: 72.5rem;
+  text-align: center;
+  line-height: 4.4rem;
+  cursor: pointer;
+}
+//text Номера, которые мы для вас подобрали
+.searchroomfilter__headerrooms {
+  position: absolute;
+  width: 51.3rem;
+  height: 3rem;
+  left: 46.5rem;
+  top: 3rem;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: #1F2041;
+}
+//block room lux № 888
+.searchroomfilter__room888 {
+  position: absolute;
+  width: 27rem;
+  height: 25.7rem;
+  left: 46.6rem;
+  top: 8.1rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 1rem 2rem rgba(31, 32, 65, 0.05);
+  border-radius: 0.4rem;
+}
+//image room lux
+.imgroom888 {
+  position: absolute;
+  width: 27rem;
+  height: 15.138rem;
+  border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+//arrow rights
+.searchroomfilter__arrowright {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  top: 5.3rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  .arrowrightroom888 {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+//arrow left
+.searchroomfilter__arrowleft {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  left: 22.6rem;
+  top: 5.3rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  .arrowleftroom888 {
+    cursor: pointer;
+    margin: 0 auto;
+  }
+}
+//round
+.searchroomfilter__round {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 21.375rem;
+  top: 12.84rem;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.searchroomfilter__roundempty1 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 22.5rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__roundempty2 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 23.65rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__roundempty3 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 24.75rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+//№ 888 люкс 9990 р в сутки
+.searchroomfilter__roomnumber888 {
+  position: absolute;
+  width: 6.4rem;
+  height: 3rem;
+  left: 1.5rem;
+  top: 17.1rem;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1f2041;
+  white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+  line-height: 3rem;
+  margin: 0;
+  span {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+//text lux
+.searchroomfilter__textlux {
+  position: absolute;
+  width: 4.1rem;
+  height: 1.5rem;
+  left: 8rem;
+  top: 18.2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #bc9cff;
+}
+//9990 р в сутки
+.searchroomfilter__roompricelux {
+  position: absolute;
+  width: 11rem;
+  height: 2rem;
+  left: 15.3rem;
+  top: 17.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  white-space: nowrap;
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//line block room lux
+.searchroomfilter__lineroomlux {
+  position: absolute;
+  width: 23rem;
+  height: 0.1rem;
+  left: 2rem;
+  top: 20.5rem;
+  background: rgba(31, 32, 65, 0.1);
+}
+//star
+.searchroomfilter__starroomlux1 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 2.026rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+
+.searchroomfilter__starroomlux2 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 4.426rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__starroomlux3 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 6.826rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__starroomlux4 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 9.226rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__starroomlux5 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 11.6rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+//text 145 отзывов
+.searchroomfilter__145comments {
+  position: absolute;
+  width: 9rem;
+  height: 18px;
+  left: 16rem;
+  top: 21.756rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//block room № 840
+.searchroomfilter__room840 {
+  position: absolute;
+  width: 27rem;
+  height: 25.7rem;
+  left: 74.8rem;
+  top: 8.1rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 1rem 2rem rgba(31, 32, 65, 0.05);
+  border-radius: 0.4rem;
+}
+//image room 840
+.imgroom840 {
+  position: absolute;
+  width: 27rem;
+  height: 15.138rem;
+  border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+//round
+.searchroomfilter__roundroom840 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 21.375rem;
+  top: 12.84rem;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.searchroomfilter__round1empty840 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 22.5rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round2empty840 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 23.65rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round3empty840 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 24.75rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+//№ 840 9900 р в сутки
+.searchroomfilter__roomnumber840 {
+  position: absolute;
+  width: 6.4rem;
+  height: 3rem;
+  left: 1.5rem;
+  top: 17.1rem;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1f2041;
+  white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+  line-height: 3rem;
+  margin: 0;
+  span {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+//9900 р в сутки
+.searchroomfilter__roomprice840 {
+  position: absolute;
+  width: 11rem;
+  height: 2rem;
+  left: 15.3rem;
+  top: 17.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  white-space: nowrap;
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//line block room 840
+.searchroomfilter__lineroom840 {
+  position: absolute;
+  width: 23rem;
+  height: 0.1rem;
+  left: 2rem;
+  top: 20.5rem;
+  background: rgba(31, 32, 65, 0.1);
+}
+//star
+.searchroomfilter__star1room840 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 2.026rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+
+.searchroomfilter__star2room840 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 4.426rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star3room840 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 6.826rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star4room840 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 9.226rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star5room840 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 11.6rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+//text 145 отзывов
+.searchroomfilter__65comments {
+  position: absolute;
+  width: 9rem;
+  height: 18px;
+  left: 16rem;
+  top: 21.756rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//block room lux № 980
+.searchroomfilter__room980 {
+  position: absolute;
+  width: 27rem;
+  height: 25.7rem;
+  left: 103rem;
+  top: 8.1rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 1rem 2rem rgba(31, 32, 65, 0.05);
+  border-radius: 0.4rem;
+}
+//image room lux
+.imgroom980 {
+  position: absolute;
+  width: 27rem;
+  height: 15.138rem;
+  border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+//round
+.searchroomfilter__roundroom980 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 21.375rem;
+  top: 12.84rem;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.searchroomfilter__round1emptyroom980 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 22.5rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round2emptyroom980 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 23.65rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round3emptyroom980 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 24.75rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+//№ 980 люкс 8500 р в сутки
+.searchroomfilter__roomnumber980 {
+  position: absolute;
+  width: 6.4rem;
+  height: 3rem;
+  left: 1.5rem;
+  top: 17.1rem;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1f2041;
+  white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+  line-height: 3rem;
+  margin: 0;
+  span {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+//text lux
+.searchroomfilter__textluxroom980 {
+  position: absolute;
+  width: 4.1rem;
+  height: 1.5rem;
+  left: 8rem;
+  top: 18.2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #bc9cff;
+}
+//8500 р в сутки
+.searchroomfilter__roomprice980 {
+  position: absolute;
+  width: 11rem;
+  height: 2rem;
+  left: 15.3rem;
+  top: 17.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  white-space: nowrap;
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//line block room 980
+.searchroomfilter__lineroom980 {
+  position: absolute;
+  width: 23rem;
+  height: 0.1rem;
+  left: 2rem;
+  top: 20.5rem;
+  background: rgba(31, 32, 65, 0.1);
+}
+//star
+.searchroomfilter__star1room980 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 2.026rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+
+.searchroomfilter__star2room980 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 4.426rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star3room980 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 6.826rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star4room980 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 9.226rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star5room980 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 11.6rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+//text 35 отзывов
+.searchroomfilter__35comments {
+  position: absolute;
+  width: 9rem;
+  height: 18px;
+  left: 16rem;
+  top: 21.756rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//block room № 856
+.searchroomfilter__room856 {
+  position: absolute;
+  width: 27rem;
+  height: 25.7rem;
+  left: 46.6rem;
+  top: 35.85rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 1rem 2rem rgba(31, 32, 65, 0.05);
+  border-radius: 0.4rem;
+}
+//image room lux
+.imgroom856 {
+  position: absolute;
+  width: 27rem;
+  height: 15.138rem;
+  border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+//round
+.searchroomfilter__roundroom856 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 21.375rem;
+  top: 12.84rem;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.searchroomfilter__round1emptyroom856 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 22.5rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round2emptyroom856 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 23.65rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round3emptyroom856 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 24.75rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+//№ 856 7300 р в сутки
+.searchroomfilter__roomnumber856 {
+  position: absolute;
+  width: 6.4rem;
+  height: 3rem;
+  left: 1.5rem;
+  top: 17.1rem;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1f2041;
+  white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+  line-height: 3rem;
+  margin: 0;
+  span {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+//7300 р в сутки
+.searchroomfilter__roomprice856 {
+  position: absolute;
+  width: 11rem;
+  height: 2rem;
+  left: 15.3rem;
+  top: 17.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  white-space: nowrap;
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//line block room 856
+.searchroomfilter__lineroom856 {
+  position: absolute;
+  width: 23rem;
+  height: 0.1rem;
+  left: 2rem;
+  top: 20.5rem;
+  background: rgba(31, 32, 65, 0.1);
+}
+//star
+.searchroomfilter__star1room856 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 2.026rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+
+.searchroomfilter__star2room856 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 4.426rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star3room856 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 6.826rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star4room856 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 9.226rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star5room856 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 11.6rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+//text 19 отзывов
+.searchroomfilter__19comments {
+  position: absolute;
+  width: 9rem;
+  height: 18px;
+  left: 16rem;
+  top: 21.756rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//block room № 740
+.searchroomfilter__room740 {
+  position: absolute;
+  width: 27rem;
+  height: 25.7rem;
+  left: 74.8rem;
+  top: 35.85rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 1rem 2rem rgba(31, 32, 65, 0.05);
+  border-radius: 0.4rem;
+}
+//image room 740
+.imgroom740 {
+  position: absolute;
+  width: 27rem;
+  height: 15.138rem;
+  border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+//round
+.searchroomfilter__roundroom740 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 21.375rem;
+  top: 12.84rem;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.searchroomfilter__round1emptyroom740 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 22.5rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round2emptyroom740 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 23.65rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round3emptyroom740 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 24.75rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+//№ 740 6000 р в сутки
+.searchroomfilter__roomnumber740 {
+  position: absolute;
+  width: 6.4rem;
+  height: 3rem;
+  left: 1.5rem;
+  top: 17.1rem;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1f2041;
+  white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+  line-height: 3rem;
+  margin: 0;
+  span {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+//6000 р в сутки
+.searchroomfilter__roomprice740 {
+  position: absolute;
+  width: 11rem;
+  height: 2rem;
+  left: 15.3rem;
+  top: 17.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  white-space: nowrap;
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//line block room 740
+.searchroomfilter__lineroom740 {
+  position: absolute;
+  width: 23rem;
+  height: 0.1rem;
+  left: 2rem;
+  top: 20.5rem;
+  background: rgba(31, 32, 65, 0.1);
+}
+//star
+.searchroomfilter__star1room740 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 2.026rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+
+.searchroomfilter__star2room740 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 4.426rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star3room740 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 6.826rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star4room740 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 9.226rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star5room740 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 11.6rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+//text 44 отзывов
+.searchroomfilter__44comments {
+  position: absolute;
+  width: 9rem;
+  height: 18px;
+  left: 16rem;
+  top: 21.756rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//block room № 982
+.searchroomfilter__room982 {
+  position: absolute;
+  width: 27rem;
+  height: 25.7rem;
+  left: 103rem;
+  top: 35.85rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 1rem 2rem rgba(31, 32, 65, 0.05);
+  border-radius: 0.4rem;
+}
+//image room 982
+.imgroom982 {
+  position: absolute;
+  width: 27rem;
+  height: 15.138rem;
+  border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+//round
+.searchroomfilter__roundroom982 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 21.375rem;
+  top: 12.84rem;
+  background: #ffffff;
+  border-radius: 100%;
+}
+.searchroomfilter__round1emptyroom982 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 22.5rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round2emptyroom982 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 23.65rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+.searchroomfilter__round3emptyroom982 {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.749rem;
+  left: 24.75rem;
+  top: 12.84rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  box-shadow: 0rem 0.5rem 0.5rem rgba(31, 32, 65, 0.3);
+}
+//№ 982 5800 р в сутки
+.searchroomfilter__roomnumber982 {
+  position: absolute;
+  width: 6.4rem;
+  height: 3rem;
+  left: 1.5rem;
+  top: 17.1rem;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1f2041;
+  white-space: nowrap;
+  text-align: center;
+  display: inline-block;
+  line-height: 3rem;
+  margin: 0;
+  span {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+//5800 р в сутки
+.searchroomfilter__roomprice982 {
+  position: absolute;
+  width: 11rem;
+  height: 2rem;
+  left: 15.3rem;
+  top: 17.7rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(31, 32, 65, 0.5);
+  display: inline-block;
+  white-space: nowrap;
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+//line block room 982
+.searchroomfilter__lineroom982 {
+  position: absolute;
+  width: 23rem;
+  height: 0.1rem;
+  left: 2rem;
+  top: 20.5rem;
+  background: rgba(31, 32, 65, 0.1);
+}
+//star
+.searchroomfilter__star1room982 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 2.026rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+
+.searchroomfilter__star2room982 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 4.426rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star3room982 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 6.826rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star4room982 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 9.226rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+.searchroomfilter__star5room982 {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 11.6rem;
+  top: 21.4rem;
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  cursor: pointer;
+}
+//text 56 отзывов
+.searchroomfilter__56comments {
+  position: absolute;
+  width: 9rem;
+  height: 18px;
+  left: 16rem;
+  top: 21.756rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: right;
+  color: rgba(31, 32, 65, 0.5);
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
 }
