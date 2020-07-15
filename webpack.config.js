@@ -135,7 +135,16 @@ canPrint: true
   {
   from: `${PATHS.src}/uikit/fonts`,
    to: `${PATHS.assets}fonts`
-  }
+  },
+{
+  from: `${PATHS.src}/calendar/css`,
+   to: `${PATHS.assets}/calendar/css`
+},
+{
+  from: `${PATHS.src}/calendar/js`,
+   to: `${PATHS.assets}/calendar/js`
+},
+
 ]),
 
 
